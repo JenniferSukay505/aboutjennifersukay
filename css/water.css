@@ -1,5 +1,5 @@
 body {
-	background: url("../img/underwater.png") no-repeat center center fixed;
+	background: url("../img/underwater2.png") no-repeat center center fixed;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
@@ -13,11 +13,7 @@ p {
 	color: rgb(3, 6, 11);
 }
 
-#bubblesdown {
-	url("../img/bubblesdown.png") repeat-x 0 left;
-}
-#bubble,
-#bubblesdown {
+#transparentbubbles {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -26,108 +22,57 @@ p {
 	margin-top: -1000px;
 	margin-left: -1000px;
 	opacity: .5;
-	background: url(../img/transparentbubbles.png) repeat-x 0 center;
+	background: url('../img/transparentbubbles.png') repeat-x 0 center;
 	-webkit-animation-name: transparentbubblesAnimation;
 	-webkit-animation-duration: 30s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
+	z-index: 1;
 }
 
-#fog-2 {
-	opacity: 1;
-	-webkit-animation-duration: 120s;
-}
+
 
 @-webkit-keyframes transparentbubblesAnimation {
 	from {
 		-webkit-transform: rotate(0deg);
-		background-position: 0 center;
+		background-position: top right;
 	}
 	to {
-		-webkit-transform: rotate(360deg);
+		-webkit-transform: rotate(285deg);
 		background-position: 1000px center;
 	}
 }
 
-#manybubbles,
-#manybubbles-2,
-#small-stars,
-#small-stars-2 {
+
+#splash2 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	width: 600px;
-	height: 600px;
-	margin: -300px 0 0 -300px;
-	-webkit-animation-name: bubblesLarge;
-	-webkit-animation-duration: 60s;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-timing-function: linear;
-}
-
-@-webkit-keyframes starsLarge {
-	from {
-		-webkit-transform: rotate(0deg) scale(3);
-		opacity: .1;
-	}
-	to {
-		-webkit-transform: rotate(360deg) scale(.5);
-		opacity: 0;
-	}
-}
-
-#stars-2 {
-	-webkit-animation-name: transparentbubblesLargeAlt;
-	-webkit-animation-duration: 45s;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-timing-function: linear;
-}
-
-@-webkit-keyframes bubble {
-	from {
-		-webkit-transform: rotate(180deg) scale(3);
-		opacity: .25;
-	}
-	to {
-		-webkit-transform: rotate(360deg) scale(.5);
-		opacity: 0;
-	}
-}
-
-#transparentbubbles,
-#manybubbles {
-	background: url(../manybubbles.png) no-repeat center center;
-	-webkit-animation-duration: 15s;
-	-webkit-animation-name: manybubblesSmall;
-}
-
-#small-stars-2 {
-	-webkit-animation-name: manybubblesSmallAlt;
+	width: 2000px;
+	height: 2000px;
+	margin-top: -1000px;
+	margin-left: -1000px;
+	opacity: .5;
+	background: url('../img/splash2.png') repeat-x 0 center;
+	-webkit-animation-name: splash2Animation;
 	-webkit-animation-duration: 30s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	z-index: 2;
 }
 
-@-webkit-keyframes bubbleSmall {
+
+
+@-webkit-keyframes splash2Animation {
 	from {
-		-webkit-transform: rotate(360deg) scale(3);
-		opacity: .25;
+		-webkit-transform: rotate(0deg);
+		background-position: top left;
 	}
 	to {
-		-webkit-transform: rotate(0deg) scale(.5);
-		opacity: 0;
+		-webkit-transform: rotate(265deg);
+		background-position: 1000px center;
 	}
 }
-
-@-webkit-keyframes manybubblesSmallAlt {
-	from {
-		-webkit-transform: rotate(0deg) scale(3);
-		opacity: .1;
-	}
-	to {
-		-webkit-transform: rotate(360deg) scale(.5);
-		opacity: 0;
-	}
-}
-
 
 #helmetcat {
 	position: absolute;
@@ -137,12 +82,12 @@ p {
 	height: 2000px;
 	margin-top: -1000px;
 	margin-left: -1000px;
-	background: url(../img/helmetcat.png) repeat-x 0 center;
+	background: url(../img/helmetcat.png) no-repeat 0 center;
 	-webkit-animation-name: helmetcatAnimation;
 	-webkit-animation-duration: 30s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
-	z-index: 4;
+	z-index: 3;
 
 }
 
@@ -157,6 +102,124 @@ p {
 	}
 	to {
 		-webkit-transform: rotate(360deg);
+		background-position: 500px center;
+	}
+}
+
+#clearsplash {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 2000px;
+	height: 2000px;
+	margin-top: -1000px;
+	margin-left: -1000px;
+	opacity: .5;
+	background: url('../img/clearsplash.png') repeat-x right;
+	-webkit-animation-name: clearsplashAnimation;
+	-webkit-animation-duration: 30s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	z-index: 4;
+}
+
+
+
+@-webkit-keyframes clearsplashAnimation {
+	from {
+		-webkit-transform: rotate(10deg);
+		background-position: 0 center;
+	}
+	to {
+		-webkit-transform: rotate(280deg);
 		background-position: 1000px center;
+	}
+}
+#splash3 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 2000px;
+	height: 2000px;
+	margin-top: -1000px;
+	margin-left: -1000px;
+	opacity: .5;
+	background: url('../img/splash3.png') repeat-x right;
+	-webkit-animation-name: splash3Animation;
+	-webkit-animation-duration: 30s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	z-index: 5;
+}
+
+
+
+@-webkit-keyframes splash3Animation {
+	from {
+		-webkit-transform: rotate(5deg);
+		background-position: 0 center;
+	}
+	to {
+		-webkit-transform: rotate(300deg);
+		background-position: 400px;
+	}
+}
+
+#transparentbubbles2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 2000px;
+	height: 2000px;
+	margin-top: -1000px;
+	margin-left: -1000px;
+	opacity: .20;
+	background: url('../img/transparentbubbles.png') repeat-x 0 center;
+	-webkit-animation-name: transparentbubbles2Animation;
+	-webkit-animation-duration: 30s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	z-index: 6;
+}
+
+
+
+@-webkit-keyframes transparentbubbles2Animation {
+	from {-webkit-transform: rotate(275deg);
+		background-position: 800px ;
+
+	}
+	to {-webkit-transform: rotate(7deg);
+		background-position: 30px ;
+	}
+}
+
+#clearsplash2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 2000px;
+	height: 2000px;
+	margin-top: -1000px;
+	margin-left: -1000px;
+	opacity: .15;
+	background: url('../img/clearsplash2.png') repeat-x right;
+	-webkit-animation-name: clearsplash2Animation;
+	-webkit-animation-duration: 30s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	z-index: 5;
+}
+
+
+
+@-webkit-keyframes clearsplash2Animation {
+	from {
+		-webkit-transform: rotate(300deg);
+		background-position: 400px;
+	}
+	to {-webkit-transform: rotate(37deg);
+		background-position: 80px;
+
 	}
 }
