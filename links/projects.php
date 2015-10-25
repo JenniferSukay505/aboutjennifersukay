@@ -28,7 +28,7 @@
 		<p>Humanizing the homeless</p>
 	</header>
 <section>
-		<p> For submissions, <a href="/submissions/openeyesopenheartsubmissions.php">click here</a>
+		<p> For submissions, <a href="/raisingheroes/submissions/openeyesopenheartsubmissions.php">click here</a>
 	</section>
 </article>
 <article id="nonprofit" role="article">
