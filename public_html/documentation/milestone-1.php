@@ -25,9 +25,9 @@
 <header>
 	<h1>About Jennifer Sukay</h1>
 		<figure>
-			<figcaption>Coding Student</figcaption>
-				<img src="/img/codecomments.png" alt="Code">
-			</figure>
+			<img class="code" src="/img/codecomments.png" alt="coding">
+			<figcaption>Coding Student at <a href="https://bootcamp-coders.cnm.edu/">Deep Dive Coding Bootcamp</a></figcaption>
+		</figure>
 	</header>
 <section>
 	<p>Studying web-design and business through studies and implementation.</p>
@@ -39,14 +39,19 @@
 	</ul>
 <section>
 	<dl>
-		<dt><span id="lead">Purpose</span></dt>
-		<dd>Offer light business counseling services and website design.</p></dd>
+		<dt><span id="lead">Website Purpose</span></dt>
+		<dd>Offer light business counseling and website design services.</p></dd>
 		<dt><span id="lead">Audience</span></dt>
 		<dd>Entrepreneurs looking to have their website designed.</p></dd>
 		<dt><span id="lead">Goal</span></dt>
 		<dd>Attract part-time employment through a business or potential freelance clients.</dd>
 	</dl>
 </section>
+	<aside><p>I have had project ideas in my heart for years.  Now that I have jumped into coding, I am learning to
+		implement them.  Please view <a href="/links/nonprofit.php" title="nonprofit">Nonprofit</a> and
+		<a href="/links/projects.php" title="projects.php">Projects</a> and let me know if you want to contribute.  I
+		am also interested in hearing your own ideas. </p>
+	</aside>.
 </article>
 </main>
 	<footer id="pageFooter">

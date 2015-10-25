@@ -17,5 +17,9 @@
 			<span id="waterdrops">so many</span>
 			<span id="clearsplash2">cookies"&hellip;</span>
 		</p>
+	<footer id="lowerRight">
+		<p>JennWebDesigns</p>
+		<p>all content @copy; copyright 2015 JennWebDesigns</p>
+	</footer>
 </body>
 </html>
