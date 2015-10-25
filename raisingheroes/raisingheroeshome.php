@@ -15,7 +15,7 @@
 		<link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
 
 		<!-- Custom styles for this template -->
-		<link rel="stylesheet" href="/css/heroeshome.css" type="text/css">
+		<link rel="stylesheet" href="../css/heroeshome.css" type="text/css">
 
 		<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
 		<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
