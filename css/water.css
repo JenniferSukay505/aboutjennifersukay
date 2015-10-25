@@ -223,3 +223,31 @@ p {
 
 	}
 }
+#waterdrops {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 2000px;
+	height: 2000px;
+	margin-top: -1000px;
+	margin-left: -1000px;
+	opacity: .5;
+	background: url('../img/waterdrops.png') repeat-x center;
+	-webkit-animation-name: waterdropssAnimation;
+	-webkit-animation-duration: 30s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	z-index: 6;
+}
+
+@-webkit-keyframes waterdropsAnimation {
+	from {
+		-webkit-transform: rotate(35deg);
+		background-position: top right;
+	}
+	to {
+		-webkit-transform: rotate(285deg);
+		background-position: 1000px center;
+	}
+}
+
