@@ -24,12 +24,14 @@
 		<header>
 			<h1>Raising Heroes</h1>
 			<!--enter description-->
+			<p id="description">"Connecting inspirational heroes to children"</p>
 		</header>
 </main>
 	<footer id="pageFooter">
 		<div class="rightCol">
 			<p><a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">Email Us</a></p>
-			<p><a href="tel://505-489-9573" title="phone"</a></p>
+			<p><a href="tel://505-489-9573" title="phone">Call Us</a></p>
+			<p>Albuquerque, New Mexico</p>
 	</footer>
 </body>
 </html>

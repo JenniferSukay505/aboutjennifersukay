@@ -28,13 +28,12 @@
 		</figure>
 	</header>
 <section>
-	<p>Exploring web-design and business through study and implementation.</p>
+	<p>Currently exploring web-design and business through study and implementation.</p>
 </section>
 <article>
 	<dl>
 		<dt>Offering</dt>
-		<dd>Business consulting and design for startup companies</dd>
-		<dd>Website creation</dd>
+		<dd>Business consulting and website design</dd>
 	</dl>
 <section>
 	<dl>
