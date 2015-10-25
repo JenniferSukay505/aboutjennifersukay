@@ -27,18 +27,12 @@
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 	</head>
-
 	<body>
-
 		<div class="site-wrapper">
-
 			<div class="site-wrapper-inner">
-
 				<div class="cover-container">
-
 					<div class="masthead clearfix">
 						<div class="inner">
-
 							<nav>
 								<ul class="nav masthead-nav">
 									<li class="active"><a href="raisingheroeshome.php" title="Home">Home</a></li>
@@ -49,23 +43,16 @@
 							</nav>
 						</div>
 					</div>
-
 					<div class="inner cover">
 						<h1 class="cover-heading">Raising Heroes</h1>
 						<p class="lead">"Connecting inspirational heroes to children"</p>
 						<p class="lead">
-							<a href="#" class="btn btn-lg btn-default">Submit Here</a>
+							<a href="./submissions/raisingheroessubmissions.php" class="btn btn-lg btn-default">Submit Here</a>
 						</p>
 					</div>
-
-
-
 				</div>
-
 			</div>
-
 		</div>
-
 		<!-- Bootstrap core JavaScript
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->

@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <head>
+<html lang="en">
+<head>
 	<meta charset="utf-8">
 	<meta charset="utf-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -9,7 +11,7 @@
 	<!-- Optional Bootstrap theme -->
 	<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet"/>
 	<!--link to css files-->
-	<link type="text/css" href="/css/styles.css" rel="stylesheet"/>
+	<link type="text/css" href="../css/heroeshome.css" rel="stylesheet"/>
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -28,28 +30,41 @@
 <title>Raising Heroes</title>
 </head>
 <body>
+		<div class="site-wrapper">
+			<div class="site-wrapper-inner">
+				<div class="cover-container">
+					<div class="masthead clearfix">
+						<div class="inner">
+							<nav>
+								<ul class="nav masthead-nav">
+									<li class="active"><a href="raisingheroeshome.php" title="Home">Home</a></li>
+									<li><a href="about.php" title="About">About</a></li>
+									<li><a href="faq.php" title="FAQ">Q&A</a></li>
+									<li><a href="/links/contact.php" title="Contact">Contact</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
 	<header id="mainHeader" role="banner">
-		<h1>FAQS</h1>
+	<h1>FAQS</h1>
 	<main id="faq" role="main">
-		<article id="faq" role="main">
-			<dl>
-				<dt>What speakers do you have?</dt>
-				<dd>We have speakers from several cities with various professions including doctors, lawyers, and entrepreneurs.</dd>
-				<dt>Where are you located?</dt>
-				<dd>We are situated in Albuquerque, NM but have speakers in several cities.</dd>
-				<dt>Do you take requests?</dt>
-				<dd>YES!   Please indicate your city and we will find a speaker for you!   We also take recommendations on schools,
-					fields, and individual speakers.</dd>
-				<dt>Can one apply to be a speaker?</dt>
-				<dd>YES!  We are always looking for more!  You never know who will reach the heart of a child.  Send us the speaker
-						information and we'll happily look into it and see if we can arrange an event!</dd>
-			</dl>
-		</article>
+		<div id="faq">
+				<dl>
+					<dt class="lead">Where are you located?</dt>
+					<dd class="answer">We are located in Albuquerque, NM.</dd>
+					<dt><br></dt>
+					<dt class="lead">Do you take requests?</dt>
+					<dd class="answer">YES!  We also take recommendations on schools and desired expertise.</dd>
+					<dt><br></dt>
+					<dt class="lead">Can one apply to be a speaker?</dt>
+					<dd class="answer">YES!  We are always looking for more!  You never know who will reach the heart of a child.  Let us know
+					what you want and we'll happily look into it and see if we can arrange an event!</dd>
+				</dl>
+		</div>
 	</main>
 		<footer id="pageFooter">
-				<p><a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">Contact Us</a></p>
+				<p><a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!"><span id="email">Contact Raising Heroes</span></a></p>
 				<p><a href="tel://505-489-9573" title="phone"</a></p>
 		</footer>
 	</body>
-</html>
 

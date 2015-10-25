@@ -1,0 +1,28 @@
+body {
+	background: #000;
+	overflow: hidden;
+	-webkit-animation-name: pulse;
+	-webkit-animation-duration: 30s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes pulse {
+	from {
+		background: #154d87;
+	}
+	25% {
+		background-color: #2f1333;
+	}
+	50% {
+		background-color: #3ab2e2;
+	}
+	to {
+		background: rgba(18, 18, 18, 0.56);
+	}
+}
+
+p {
+	z-index: 0;
+	color: rgba(61, 38, 54, 0.75);
+}
