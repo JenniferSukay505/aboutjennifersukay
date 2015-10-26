@@ -30,11 +30,6 @@
 </head>
 <body>
 		<div class="site-wrapper">
-			<div class="site-wrapper-inner">
-				<div class="cover-container">
-					<div class="masthead clearfix">
-						<div class="inner">
-							<nav>
 								<ul class="nav masthead-nav">
 									<li class="active"><a href="raisingheroeshome.php" title="Home">Home</a></li>
 									<li><a href="../openeyesopenheart/about.php" title="About">About</a></li>
