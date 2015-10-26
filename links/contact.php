@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>Raising Heroes</title>
 		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![end if]-->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/css/heroeshome.css">
 	</head>
  <body>
 	 <header id="mainHeader" role="banner">

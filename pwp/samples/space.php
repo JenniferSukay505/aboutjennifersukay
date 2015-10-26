@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Space</title>
-		<link rel="stylesheet" href="css/space.css" type="text/css">
+		<link rel="stylesheet" href="../css/space.css" type="text/css">
 	</head>
 	<body>
 		<h1>Space</h1>

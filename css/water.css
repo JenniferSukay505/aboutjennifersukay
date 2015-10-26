@@ -1,5 +1,5 @@
 body {
-	background: url("../img/underwater2.png") no-repeat center center fixed;
+	background: url("../img/water/underwater2.png") no-repeat center center fixed;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
@@ -22,7 +22,7 @@ p {
 	margin-top: -1000px;
 	margin-left: -1000px;
 	opacity: .5;
-	background: url('../img/transparentbubbles.png') repeat-x 0 center;
+	background: url('../img/water/transparentbubbles.png') repeat-x 0 center;
 	-webkit-animation-name: transparentbubblesAnimation;
 	-webkit-animation-duration: 30s;
 	-webkit-animation-iteration-count: infinite;
@@ -53,7 +53,7 @@ p {
 	margin-top: -1000px;
 	margin-left: -1000px;
 	opacity: .5;
-	background: url('../img/splash2.png') repeat-x 0 center;
+	background: url('../img/water/splash2.png') repeat-x 0 center;
 	-webkit-animation-name: splash2Animation;
 	-webkit-animation-duration: 30s;
 	-webkit-animation-iteration-count: infinite;
@@ -82,7 +82,7 @@ p {
 	height: 2000px;
 	margin-top: -1000px;
 	margin-left: -1000px;
-	background: url(../img/helmetcat.png) no-repeat 0 center;
+	background: url(../img/water/helmetcat.png) no-repeat 0 center;
 	-webkit-animation-name: helmetcatAnimation;
 	-webkit-animation-duration: 30s;
 	-webkit-animation-iteration-count: infinite;
@@ -115,7 +115,7 @@ p {
 	margin-top: -1000px;
 	margin-left: -1000px;
 	opacity: .5;
-	background: url('../img/clearsplash.png') repeat-x right;
+	background: url('../img/water/clearsplash.png') repeat-x right;
 	-webkit-animation-name: clearsplashAnimation;
 	-webkit-animation-duration: 30s;
 	-webkit-animation-iteration-count: infinite;
@@ -144,7 +144,7 @@ p {
 	margin-top: -1000px;
 	margin-left: -1000px;
 	opacity: .5;
-	background: url('../img/splash3.png') repeat-x right;
+	background: url('../img/water/splash3.png') repeat-x right;
 	-webkit-animation-name: splash3Animation;
 	-webkit-animation-duration: 30s;
 	-webkit-animation-iteration-count: infinite;
@@ -174,7 +174,7 @@ p {
 	margin-top: -1000px;
 	margin-left: -1000px;
 	opacity: .20;
-	background: url('../img/transparentbubbles.png') repeat-x 0 center;
+	background: url('../img/water/transparentbubbles.png') repeat-x 0 center;
 	-webkit-animation-name: transparentbubbles2Animation;
 	-webkit-animation-duration: 30s;
 	-webkit-animation-iteration-count: infinite;
@@ -203,7 +203,7 @@ p {
 	margin-top: -1000px;
 	margin-left: -1000px;
 	opacity: .15;
-	background: url('../img/clearsplash2.png') repeat-x right;
+	background: url('../img/water/clearsplash2.png') repeat-x right;
 	-webkit-animation-name: clearsplash2Animation;
 	-webkit-animation-duration: 30s;
 	-webkit-animation-iteration-count: infinite;
@@ -232,7 +232,7 @@ p {
 	margin-top: -1000px;
 	margin-left: -1000px;
 	opacity: .5;
-	background: url('../img/waterdrops.png') repeat-x center;
+	background: url('../img/water/waterdrops.png') repeat-x center;
 	-webkit-animation-name: waterdropssAnimation;
 	-webkit-animation-duration: 30s;
 	-webkit-animation-iteration-count: infinite;

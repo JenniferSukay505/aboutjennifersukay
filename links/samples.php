@@ -8,11 +8,10 @@
 <body>
 	<h1 id="lead"> CSS Samples</h1>
 		<ul>
-			<li><a href="/underwater.php">"Underwater CSS"</a></li>
+			<li><a href="/pwp/samples/underwater.php">"Underwater CSS"</a></li>
 		</ul>
 	<footer id="pageFooter">
 		<div class="rightCol">
-			<p class="topLink"><a href="#mainHeader">return to top</a></p>
 			<p>Web Designs by Jennifer Sukay</p>
 			<p><a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">jennifersukay505@gmail.com</a></p></div>
 			<p>JennWebDesigns</p>

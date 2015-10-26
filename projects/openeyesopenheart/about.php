@@ -31,8 +31,8 @@
 		<header id="mainHeader"><!--branding and navigation-->
 			<nav>
 				<ul>
-					<li><a href="raisingheroeshome.php" title="Home">Home</a></li>
-					<li><a href="faq.php" title="FAQ">Q&A</a></li>
+					<li><a href="../raisingheroes/raisingheroeshome.php" title="Home">Home</a></li>
+					<li><a href="../raisingheroes/faq.php" title="FAQ">Q&A</a></li>
 					<li><a href="/links/contact.php" title="Contact">Contact</a></li>
 				</ul>
 			</nav>
@@ -40,10 +40,10 @@
 <main id="raisingheroesbeginning" role="main">
 	<header>
 		<h1>From the Raising Heroes Creator</h1>
-		<time datetime="2015-10-204" class="pubdate" itemprop="dateCreated">posted on October 24<sup>th</sup>,2015</time>
+		<time datetime="2015-10-204" class="pubdate">posted on October 24<sup>th</sup>,2015</time>
 	</header>
 <article id="raisingheroesbeginning" role="article">
-	<p itemprop="author">Jennifer Sukay</p>
+	<p id="author">Jennifer Sukay</p>
 		<p class="summary">I decided I wanted to try to make a difference when my 6 year old daughter told me<br>
 
 <p>“Mommy, I don’t ever want to grow up”<br></p>

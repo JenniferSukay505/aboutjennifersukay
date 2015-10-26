@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<head>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -38,7 +37,7 @@
 							<nav>
 								<ul class="nav masthead-nav">
 									<li class="active"><a href="raisingheroeshome.php" title="Home">Home</a></li>
-									<li><a href="about.php" title="About">About</a></li>
+									<li><a href="../openeyesopenheart/about.php" title="About">About</a></li>
 									<li><a href="faq.php" title="FAQ">Q&A</a></li>
 									<li><a href="/links/contact.php" title="Contact">Contact</a></li>
 								</ul>

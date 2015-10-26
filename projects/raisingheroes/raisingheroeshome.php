@@ -36,7 +36,7 @@
 							<nav>
 								<ul class="nav masthead-nav">
 									<li class="active"><a href="raisingheroeshome.php" title="Home">Home</a></li>
-									<li><a href="about.php" title="About">About</a></li>
+									<li><a href="../openeyesopenheart/about.php" title="About">About</a></li>
 									<li><a href="faq.php" title="FAQ">Q&A</a></li>
 									<li><a href="/links/contact.php" title="Contact">Contact</a></li>
 								</ul>
@@ -47,7 +47,7 @@
 						<h1 class="cover-heading">Raising Heroes</h1>
 						<p class="lead">"Connecting inspirational heroes to children"</p>
 						<p class="lead">
-							<a href="./submissions/raisingheroessubmissions.php" class="btn btn-lg btn-default">Submit Here</a>
+							<a href="raisingheroessubmissions.php" class="btn btn-lg btn-default">Submit Here</a>
 						</p>
 					</div>
 				</div>
