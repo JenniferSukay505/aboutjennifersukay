@@ -2,30 +2,38 @@ body {
 	background-color: midnightblue;
 }
 /* Position images. */
-#galaxy
-{ list-style:none; margin:100px 0; height:550px; }
+#galaxy {
+	list-style:none;
+	height:550px;
+}
 
-/* List items. Use the  -perspective property to give the element a 3-D space by affecting the distance between
-*the Z-plane and the user. Assign the transform-style to make the info element transform correctly with the parent. Transition
-*is used for animation
+/* List items. Take note of the -perspective property. We assign the transform-style to
+* make the info element transform correctly with the parent. transition is used for animation
 */
-#galaxy li
-{ display:inline; float:left;
-	-webkit-perspective: 500; -webkit-transform-style: preserve-3d;
-	-webkit-transition-property: perspective; -webkit-transition-duration: 0.5s; }
+#galaxy li {
+	display:inline;
+	float:right;
+	-webkit-perspective: 500;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition-property: perspective;
+	-webkit-transition-duration: 0.5s;
+}
 
-/* When hovering, change the perspective.
+/* When hovering, we change the perspective. Since this property is defined
+* in the transition, it'll animate accordingly.
 */
 #galaxy li:hover {
 	-webkit-perspective: 5000;
 }
 
-/* Use the transform property to enhance the 3d effect, making it rotated.
+/* use the transform property to enhance the 3d effect, making it rotated.
 * We also add some shadows here, just to add even more depth.
 * Also, for the image, we capture the rotateY event to be animated (transition)
 */
 
-#galaxy s li img { border:10px solid #fcfafa;
+#galaxy li img {
+	float:right;
+	border:10px solid #fcfafa;
 	-webkit-transform: rotateY(30deg);
 	-moz-box-shadow:0 3px 10px #888;
 	-webkit-box-shadow:0 3px 10px #888;
@@ -38,11 +46,10 @@ body {
 	-webkit-transform: rotateY(0deg);
 }
 
-/* For the galaxy info box, do almost the same as for the image. Still, use
-* some extra css  to place it on the correct place.
-* The translateZ and rotateY properties should enhance the 3d effect.
+/* For the underwater info box,  do almost the same as for the image. Still,use
+* some extra css (like the position, margin etc.) to place it on the correct place.
+* Use translateZ and rotateY properties to enhance the 3d effect.
 */
-
 .galaxyinfo {
 	border:10px solid #fcfafa;
 	padding:20px; width:200px;
@@ -50,6 +57,7 @@ body {
 	background-color:#deddcd;
 	margin:-195px 0 0 55px;
 	position:absolute;
+	top: 5px;
 	-moz-box-shadow:0 20px 40px #888;
 	-webkit-box-shadow:0 20px 40px #888;
 	-webkit-transform: translateZ(30px) rotateY(30deg);
@@ -59,41 +67,68 @@ body {
 
 /* Animate everything to their 2d state when hovering the parent. */
 #galaxy li:hover .galaxyinfo
-{ -webkit-transform: rotateY(0deg); -webkit-box-shadow:0 5px 10px #888; margin:-175px 0 0 30px; }
+{ -webkit-transform: rotateY(0deg);
+	-webkit-box-shadow:0 5px 10px #888;
+	margin:-175px 0 0 30px;
+}
 
-/* Some basic CSS for the movie info */
-.galaxyinfo h3 { color:#7a3f3a; font-variant: small-caps; font-family:Georgia,serif,Times; text-align:center; padding-bottom:15px; }
-.galaxyinfo p { padding-bottom:15px; }
-.galaxyinfo a { background-color:#7a3f3a; padding:5px 10px; color:#eee; text-decoration:none; display:block; width:80px; text-align:center; margin:0 auto;
-	-moz-border-radius:5px; -webkit-border-radius:5px; }
-.galaxyinfo a:hover, .galaxyinfo a:focus { background-color:#6a191f; color:#fff; }
+/* Some basic CSS for the underwaterinfo */
+.galaxyinfo h3 {
+	color:#7a3f3a;
+	font-variant: small-caps;
+	font-family:Georgia,serif,Times;
+	text-align:center;
+	padding-bottom:15px;
+}
+.galaxyinfo p {
+	padding-bottom:15px;
+}
+.galaxyinfo a {
+	background-color:#7a3f3a;
+	padding:5px 10px;
+	color:#eee;
+	text-decoration:none;
+	display:block; width:80px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+.galaxyinfo a:hover, .galaxyinfo a:focus {
+	background-color:#6a191f;
+	color:#fff;
+}
 
 /* Position images. */
-#underwater {
+#water {
 	list-style:none;
-	margin:100px 0;
-	height:550px; }
+	height:550px;
+}
 
 /* List items. Take note of the -perspective property. We assign the transform-style to
 * make the info element transform correctly with the parent. transition is used for animation
 */
-#underwater li
-{ display:inline; float:right;
-	-webkit-perspective: 500; -webkit-transform-style: preserve-3d;
-	-webkit-transition-property: perspective; -webkit-transition-duration: 0.5s; }
+#water li {
+	display:inline;
+	float:right;
+	-webkit-perspective: 500;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition-property: perspective;
+	-webkit-transition-duration: 0.5s;
+}
 
 /* When hovering, we change the perspective. Since this property is defined
 * in the transition, it'll animate accordingly.
 */
-#underwater li:hover
-{ -webkit-perspective: 5000; }
+#water li:hover {
+	-webkit-perspective: 5000;
+}
 
-/* We use the transform property to enhance the 3d effect, making it rotated.
+/* use the transform property to enhance the 3d effect, making it rotated.
 * We also add some shadows here, just to add even more depth.
 * Also, for the image, we capture the rotateY event to be animated (transition)
 */
 
-#underwater li img {
+#water li img {
+	float:left;
 	border:10px solid #fcfafa;
 	-webkit-transform: rotateY(30deg);
 	-moz-box-shadow:0 3px 10px #888;
@@ -103,7 +138,7 @@ body {
 }
 
 /* Rotate back when hovering the parent element */
-#underwater li:hover img {
+#water li:hover img {
 	-webkit-transform: rotateY(0deg);
 }
 
@@ -118,7 +153,7 @@ body {
 	background-color:#deddcd;
 	margin:-195px 0 0 55px;
 	position:absolute;
-	top: 30px;
+	top: 5px;
 	-moz-box-shadow:0 20px 40px #888;
 	-webkit-box-shadow:0 20px 40px #888;
 	-webkit-transform: translateZ(30px) rotateY(30deg);
@@ -127,14 +162,15 @@ body {
 }
 
 /* Animate everything to their 2d state when hovering the parent. */
-#underwater li:hover .underwaterinfo
+#water li:hover .underwaterinfo
 { -webkit-transform: rotateY(0deg);
 	-webkit-box-shadow:0 5px 10px #888;
 	margin:-175px 0 0 30px;
 }
 
 /* Some basic CSS for the underwaterinfo */
-.underwaterinfo h3 { color:#7a3f3a;
+.underwaterinfo h3 {
+	color:#7a3f3a;
 	font-variant: small-caps;
 	font-family:Georgia,serif,Times;
 	text-align:center;
@@ -149,10 +185,16 @@ body {
 	color:#eee;
 	text-decoration:none;
 	display:block; width:80px;
-	text-align:center; margin:0 auto;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 }
 .underwaterinfo a:hover, .underwaterinfo a:focus {
-	background-color:#6a191f; color:#fff;
+	background-color:#6a191f;
+	color:#fff;
+}
+
+#sample ul li {
+	display: inline;
+	list-style-type:none;
+	padding-right:20px;
 }

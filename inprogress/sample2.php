@@ -10,6 +10,7 @@
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="../css/sample2.css" rel="stylesheet">
+		<link rel="stylesheet" href="animate.min.css">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,29 +19,29 @@
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 	</head>
-	<body>
-			<header>
-				<h1 id="lead"> CSS Samples</h1>
-			</header>
-			<main>
-				<article class="sample" role="article">
+<body>
+	<main>
+		<div id="samples">
+			<h1 id="fadeInLeftBig">Click on covers to see Animations</h1>
+		</div>
+	<article class="sample" role="article">
 					<ul id="galaxy">
 						<li>
-							<img src="../img/space/starry.png" alt="Galaxy"/>
+							<img id="starry" src="../img/space/starry.png" alt="Galaxy"/>
 							<div class="galaxyinfo">
 								<h3>Space</h3>
 								<p>A starry animation background.</p>
 								<a href="../samples/space.php" title="galaxy">Galaxy CSS</a>
-						</li>
-					</ul>
-					<ul id="underwater">
-						<li>
-							<img src="../img/water/scubacat4.jpg" alt="underwater"/>
-							<div class="underwaterwaterinfo"
-							<p>Underwater dive surroundings.</p>
-							<a href="../samples/underwater.php" title="Underwater">Underwater CSS"</a>
-						</li>
-					</ul>
+							</li>
+						</ul>
+							<ul id="water">
+								<li>
+								<img id="water" src="../img/water/scubacat4.jpg" alt="underwater"/>
+								<div class="underwaterinfo"
+								<p>Underwater Dive Surroundings.</p>
+								<a href="../samples/underwater.php" title="Underwater">Underwater CSS"</a>
+							</li>
+						</ul>
 				</article>
 			</main>
 			<footer id="pageFooter">
