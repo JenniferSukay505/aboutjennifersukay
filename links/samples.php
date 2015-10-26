@@ -7,8 +7,18 @@
 </head>
 <body>
 	<h1 id="lead"> CSS Samples</h1>
+	<ul id="csssamples">
+		<li>
+			<img src="/img/space/earth.png" alt="Space />
+			<div class="space">
+				<h3>Space</h3>
+				<p>A starry animation background.</p>
+				<a href="/samples/space.php" title="Space">Space CSS</a>
+		</li>
+		</ul>
+
 		<ul>
-			<li><a href="/pwp/samples/underwater.php">"Underwater CSS"</a></li>
+			<li><a href="/samples/underwater.php">"Underwater CSS"</a></li>
 		</ul>
 	<footer id="pageFooter">
 		<div class="rightCol">
