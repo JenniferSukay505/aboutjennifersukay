@@ -8,14 +8,16 @@
 	<body>
 		<h1>Space</h1>
 		<p>
-			<span id="stars-small">A long</span>
-			<span id="glow">long time</span>
-			<span id="gloworange">ago,</span>
+		<p>
+			<span id="fog">A long</span>
+			<span id="fog-2">long time</span>
+			<span id="glow">ago,</span>
 			<span id="light">in a</span>
 			<span id="stars">galaxy</span>
-			<span id="stars-small">far</span>
-			<span id="glow">far</span>
-			<span id="light">away&hellip;</span>
+			<span id="stars-2">far</span>
+			<span id="small-stars">far</span>
+			<span id="small-stars-2">away&hellip;</span>
+		</p>
 		</p>
 	</body>
 </html>
