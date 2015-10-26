@@ -6,7 +6,7 @@
 
 		<title>Design Samples</title>
 		<!--css-->
-		<link href="/css/sample2.css" rel="stylesheet">
+		<link href="/css/projects.css" rel="stylesheet">
 
 	</head>
 	<body>

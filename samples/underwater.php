@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Deep Dive</title>
-	<link rel="stylesheet" href="/css/water.css" type="text/css">
+	<link rel="stylesheet" href="../css/water.css" type="text/css">
 </head>
 	<title>Why Cats Scuba Dive</title>
 <body>
