@@ -10,7 +10,7 @@
 	<!-- Optional Bootstrap theme -->
 	<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet"/>
 	<!--link to css files-->
-	<link type="text/css" href="../css/heroeshome.css" rel="stylesheet"/>
+	<link type="text/css" href="/css/heroeshome.css" rel="stylesheet"/>
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
