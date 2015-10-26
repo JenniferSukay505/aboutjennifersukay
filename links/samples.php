@@ -4,26 +4,24 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="../css/samples.css" type="text/css">
 	<title>Web Design Samples</title>
-	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![end
-		if]-->
 </head>
 <body>
 	<h1 id="lead"> CSS Samples</h1>
 	<ul id="galaxy">
 		<li>
-			<img src="/img/space/stars.png" alt="Galaxy"/>
+			<img src="../img/space/stars.png" alt="Galaxy"/>
 			<div class="galaxyinfo">
 				<h3>Space</h3>
 				<p>A starry animation background.</p>
-				<a href="/samples/space.php" title="galaxy">Galaxy CSS</a>
+				<a href="../samples/space.php" title="galaxy">Galaxy CSS</a>
 		</li>
 	</ul>
 	<ul id="underwater">
 		<li>
-			<img src="/img/water/helmetcat.png" alt="underwater"/>
+			<img src="../img/water/helmetcat.png" alt="underwater"/>
 			<div class="underwaterwaterinfo"
 			<p>Underwater dive surroundings.</p>
-			<a href="/samples/underwater.php" title="Underwater">Underwater CSS"</a>
+			<a href="../samples/underwater.php" title="Underwater">Underwater CSS"</a>
 		</li>
 	</ul>
 	<footer id="pageFooter">

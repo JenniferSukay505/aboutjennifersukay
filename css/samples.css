@@ -2,8 +2,9 @@
 #galaxy
 { list-style:none; margin:100px 0; height:550px; }
 
-/* List items. Take note of the -perspective property. We assign the transform-style to
-* make the info element tranform correctly with the parent. transition is used for animation
+/* List items. Use the  -perspective property to give the element a 3-D space by affecting the distance between
+*the Z-plane and the user. Assign the transform-style to make the info element transform correctly with the parent. Transition
+*is used for animation
 */
 #galaxy li
 { display:inline; float:left;
@@ -16,11 +17,12 @@
 #galaxy li:hover
 { -webkit-perspective: 5000; }
 
-/* We use the tranform property to enhance the 3d effect, making it rotated.
+/* We use the transform property to enhance the 3d effect, making it rotated.
 * We also add some shadows here, just to add even more depth.
 * Also, for the image, we capture the rotateY event to be animated (transition)
-* /
-#movieposters li img
+*/
+
+#galaxy s li img
    { border:10px solid #fcfafa; -webkit-transform: rotateY(30deg);
    -moz-box-shadow:0 3px 10px #888; -webkit-box-shadow:0 3px 10px #888;
    -webkit-transition-property: transform; -webkit-transition-duration: 0.5s; }
@@ -39,7 +41,7 @@
 	-webkit-transition-property: transform, box-shadow, margin; -webkit-transition-duration: 0.5s; }
 
 /* Animate everything to their 2d state when hovering the parent. */
-#galaxy li:hover .movieinfo
+#galaxy li:hover .galaxyinfo
 { -webkit-transform: rotateY(0deg); -webkit-box-shadow:0 5px 10px #888; margin:-175px 0 0 30px; }
 
 /* Some basic CSS for the movie info */
@@ -47,14 +49,14 @@
 .galaxyinfo p { padding-bottom:15px; }
 .galaxyinfo a { background-color:#7a3f3a; padding:5px 10px; color:#eee; text-decoration:none; display:block; width:80px; text-align:center; margin:0 auto;
 	-moz-border-radius:5px; -webkit-border-radius:5px; }
-.galaxyinfo a:hover, .movieinfo a:focus { background-color:#6a191f; color:#fff; }
+.galaxyinfo a:hover, .galaxyinfo a:focus { background-color:#6a191f; color:#fff; }
 
 /* Position images. */
 #underwater
 { list-style:none; margin:100px 0; height:550px; }
 
 /* List items. Take note of the -perspective property. We assign the transform-style to
-* make the info element tranform correctly with the parent. transition is used for animation
+* make the info element transform correctly with the parent. transition is used for animation
 */
 #underwater li
 { display:inline; float:left;
@@ -62,16 +64,17 @@
 	-webkit-transition-property: perspective; -webkit-transition-duration: 0.5s; }
 
 /* When hovering, we change the perspective. Since this property is defined
-* in the transition, it'll animate occordingly.
+* in the transition, it'll animate accordingly.
 */
 #underwater li:hover
 { -webkit-perspective: 5000; }
 
-/* We use the tranform property to enhance the 3d effect, making it rotated.
+/* We use the transform property to enhance the 3d effect, making it rotated.
 * We also add some shadows here, just to add even more depth.
 * Also, for the image, we capture the rotateY event to be animated (transition)
-* /
-#movieposters li img
+*/
+
+#underwater li img
    { border:10px solid #fcfafa; -webkit-transform: rotateY(30deg);
    -moz-box-shadow:0 3px 10px #888; -webkit-box-shadow:0 3px 10px #888;
    -webkit-transition-property: transform; -webkit-transition-duration: 0.5s; }
