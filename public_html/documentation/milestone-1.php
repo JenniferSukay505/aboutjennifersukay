@@ -50,7 +50,7 @@
 				<time datetime="2015-10-25">10/25/15</time>
 			</p>
 		</header>
-		<h4 id="lead">Pet projects</h4>
+		<h4 id="lead"><a href="/links/projects.php" title="projects">Pet projects</h4>
 		<p>I have held two project ideas in my heart for years.  Now that I have jumped into coding, I am learning to
 implement them.  Please view my current <a href="/links/projects.php" title="projects">projects</a> and let me know if you want to contribute.
 I am also interested in hearing your own ideas. </p>

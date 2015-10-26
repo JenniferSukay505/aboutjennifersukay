@@ -60,15 +60,17 @@
 		<h2 id="lead">Open Eyes Open Heart</h2>
 		<div id="details">
 		<p> Meet their eyes and learn their stories</p>
-		<p> For submissions, <a href="/projects/openeyesopenheart/openeyesopenheartsubmissions.php">click here</a>
 	</div>
 	<br>
 <div class="project">
 	<h2 id="lead">Raising Heroes</h2>
 	<p>Children mentorship- we teach our children to treasure their youth. But who teaches
 them to look forward to their future?  Bringing inspirations to children and excitement for futures.</p>
-	<p> For submissions, <a href="/projects/openeyesopenheart/openeyesopenheartsubmissions.php">click here</a>
 </div>
+		<div id="submit">
+			<blockquote>For submissions, <a href="/projects/openeyesopenheart/openeyesopenheartsubmissions.php">click here</a>
+			</blockquote>
+		</div>
 	<section id="earth">
 		<img src="../img/space/earth.png" alt="earth">
 	</section>

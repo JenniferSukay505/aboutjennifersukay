@@ -4,13 +4,15 @@ body {
 }
 h2 {
 	color: #03060b;
-	background-color: #c6c1ff;
+	background-color: #989dff;
 }
 
 #project {
 	background-color: darkblue;
 }
-
+blockquote {
+	float:right;
+}
 
 a {
 	color:lightgreen;
