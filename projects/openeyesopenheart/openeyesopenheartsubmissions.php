@@ -38,10 +38,9 @@
 		</ul>
 	</nav>
 </header>
-<section>
+<section id="help">
 	<h2> Help our homeless society- meet their eyes and learn their stories</h2>
-	<p> To contribute to this project, please fill out the following form.  The following items will
-be needed.
+	<p> To contribute to this project, please fill submit the following items.  </p>
 </section>
 <table id="submissionItems">
 	<caption>
@@ -54,31 +53,17 @@ be needed.
 	<tr>
 		<th>Story</th>
 			<td>How did your subject come to be where they are?  Help us get to know them.</p></td>
-			<td><i>Example questions:</i></td>
-			<td>Where is there family?</td>
-			<td>What are their dreams?</td>
-			<td>How can we help them?</td>
 	</tr>
 	<tr>
-		<th>Location:</th>
-		<td>Where you met your subject or a location they often inhabit. This can be as broad as "New Jersey" to as specific as "Wendy's on 2nd and 3rd in New Mexico"
-		<span id="details">Details</span> Location specificity is appreciated because it helps our goal of enabling
-people to open their eyes and see these people as humans with stories. However, <span id="care">privacy</span> and <span id="care">comfort</span> are of utmost concern.
-If you disclose specific location the person is often at, this may lead to more good samaritans stopping to help.  Be sure this is acceptable your subject before deciding on
-which location to submit.  Please disclose location according to your subject's wishes.<span id="note">Note</span>  If donations are received, efforts will be made to get some to our friends at their
-		locations.</td>
+		<th>Location</th>
+		<td>Where you met your subject or a location they often inhabit. Please disclose location according to your subject's wishes.</td>
 	</tr>
-	<tr>
-		<th>Extra</th>
-		<td>Anything else you wish to include is appreciated</td>
-	</tr>
-	</table>
+</table>
+	<br>
 	<p>Send the above along with any details you wish to include.</br></p>
 	<p>We will respond as quickly as possible.</p>
-		<section>
-			<form id="openeyesopenheartform">
-				<!--TODO add form-->
-			</form>
+		<section id="contact">
+			<p><a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">Email</a></p>
 		</section>
 		</body>
 </html>
