@@ -9,20 +9,21 @@
 </head>
 <body>
 	<h1 id="lead"> CSS Samples</h1>
-	<ul id="samples">
+	<ul id="galaxy">
 		<li>
-			<img src="/img/space/earth.png" alt="Space"/>
-			<div class="space">
+			<img src="/img/space/stars.png" alt="Galaxy"/>
+			<div class="galaxyinfo">
 				<h3>Space</h3>
 				<p>A starry animation background.</p>
-				<a href="/samples/space.php" title="Space">Space CSS</a>
+				<a href="/samples/space.php" title="galaxy">Galaxy CSS</a>
 		</li>
 	</ul>
-	<ul>
+	<ul id="underwater">
 		<li>
-			<img src="/img/water/helmetcat.png" alt="Underwater"/>
+			<img src="/img/water/helmetcat.png" alt="underwater"/>
+			<div class="underwaterwaterinfo"
 			<p>Underwater dive surroundings.</p>
-			<a href="/samples/underwater.php">"Underwater CSS"</a>
+			<a href="/samples/underwater.php" title="Underwater">Underwater CSS"</a>
 		</li>
 	</ul>
 	<footer id="pageFooter">
