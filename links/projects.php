@@ -9,7 +9,7 @@
 	<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
 			<!-- Optional Bootstrap theme -->
 	<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet"/>
-	<link rel="stylesheet" type="text/css" href="/css/projects.css">
+	<link rel="stylesheet" type="text/css" href="../css/projects.css">
 			<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 			<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 			<!--[if lt IE 9]>
@@ -55,22 +55,22 @@
 	<h3 id="lead">Ongoing nonprofit projects</h3>
 </header>
 <main id="ongoingprojects" role="main">
-<article id="nonprofit" role="article">
-	<header>
+	<br>
+	<div id="project">
 		<h2 id="lead">Open Eyes Open Heart</h2>
+		<div id="details">
 		<p> Meet their eyes and learn their stories</p>
-		<p>Humanizing the homeless</p>
-	</header>
-<section>
 		<p> For submissions, <a href="/projects/openeyesopenheart/openeyesopenheartsubmissions.php">click here</a>
-	</section>
-</article>
-<article id="nonprofit" role="article">
+	</div>
+	<br>
+<div class="project">
 	<h2 id="lead">Raising Heroes</h2>
 	<p>Children mentorship- we teach our children to treasure their youth. But who teaches
 them to look forward to their future?  Bringing inspirations to children and excitement for futures.</p>
+	<p> For submissions, <a href="/projects/openeyesopenheart/openeyesopenheartsubmissions.php">click here</a>
+</div>
 	<section id="earth">
-		<img src="/img/space/earth.png" alt="earth">
+		<img src="../img/space/earth.png" alt="earth">
 	</section>
 </main>
 	<footer id="pageFooter" role="contentinfo">

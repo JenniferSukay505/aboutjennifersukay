@@ -2,4 +2,19 @@ body {
 	color: #dddddd;
 	background-color: #000000;
 }
+h2 {
+	color: #03060b;
+	background-color: #c6c1ff;
+}
 
+#project {
+	background-color: darkblue;
+}
+
+
+a {
+	color:lightgreen;
+}
+p {
+	font-size: 1.25em;
+}
