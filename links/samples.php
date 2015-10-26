@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../css/samples.css" type="text/css">
 	<title>Web Design Samples</title>
 	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![end
 		if]-->
 </head>
 <body>
 	<h1 id="lead"> CSS Samples</h1>
-	<ul id="csssamples">
+	<ul id="samples">
 		<li>
-			<img src="/img/space/earth.png" alt="Space />
+			<img src="/img/space/earth.png" alt="Space"/>
 			<div class="space">
 				<h3>Space</h3>
 				<p>A starry animation background.</p>
 				<a href="/samples/space.php" title="Space">Space CSS</a>
 		</li>
-		</ul>
-
-		<ul>
-			<li><a href="/samples/underwater.php">"Underwater CSS"</a></li>
-		</ul>
+	</ul>
+	<ul>
+		<li>
+			<img src="/img/water/helmetcat.png" alt="Underwater"/>
+			<p>Underwater dive surroundings.</p>
+			<a href="/samples/underwater.php">"Underwater CSS"</a>
+		</li>
+	</ul>
 	<footer id="pageFooter">
 		<div class="rightCol">
 			<p>Web Designs by Jennifer Sukay</p>
