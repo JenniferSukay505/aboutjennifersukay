@@ -5,12 +5,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<meta name="description" content="Nonprofit organization connecting inspirational speakers with youth">
-
 			<!-- Bootstrap Latest compiled and minified CSS -->
 	<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
 			<!-- Optional Bootstrap theme -->
 	<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet"/>
-	<link rel="stylesheet" type="text/css" href="../css/projects.css">
+	<link rel="stylesheet" type="text/css" href="/css/projects.css">
 			<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 			<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 			<!--[if lt IE 9]>
@@ -33,7 +32,6 @@
 </head>
 <body>
 <header id="mainHeader" role="banner">
-	<body role="document">
 		<!-- Fixed navbar -->
 		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 			<div class="container">
@@ -70,9 +68,9 @@
 <article id="nonprofit" role="article">
 	<h2 id="lead">Raising Heroes</h2>
 	<p>Children mentorship- we teach our children to treasure their youth. But who teaches
-them to look forward to their future?  Bringing inspirations to children and excitement for futures.
+them to look forward to their future?  Bringing inspirations to children and excitement for futures.</p>
 	<section id="earth">
-		<img src="../img/earth.png" alt="earth">
+		<img src="/img/space/earth.png" alt="earth">
 		<div id="stage" style="background: rgba(0,0,0,0.5);">
 			<p id="spinner" style="background: rgba(0,0,0,0.5); text-align: center; color: #fff;">Stop, I'm getting dizzy!</p>
 		</div>

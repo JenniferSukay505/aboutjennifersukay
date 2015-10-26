@@ -1,24 +1,13 @@
 @charset "UTF-8";
 
-html, body, div, section, article, aside, header, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
-	margin: 0;
-	padding: 0;
-	border: 0;
-}
-a {
-	text-decoration: none;
-	color: #cb7d20;
-}
+
+
 a:hover {
 	color: #952;
 }
 
-/*html5 display rule*/
-address, article, aside, canvas, details, figcaption, figure, footer, header, nav, menu, nav, section, summary {
-	display: block;
-}
 html {
-	background: #ddd;
+	background: #dddddd;
 }
 body {
 	font: 100% Georgia, "Times New Roman", Times, serif;
@@ -153,29 +142,6 @@ main caption {
 	text-align: left;
 }
 
-main table#quickFacts th {
-	width: 100px;
-}
-main table#quickFacts th, main table#quickFacts td {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: .8em;
-	padding-left: 1em;
-	text-align: left;
-	line-height: 3;
-	margin:0;
-}
-main table#quickFacts tr:nth-child(odd)  {
-	background: #e1d8b9;
-}
-main p, main address {
-	color: #666;
-	line-height: 1.6;
-	margin-bottom: 1em;
-}
-main p.summary {
-	font-size: 1.2em;
-	font-style: italic;
-}
 main img{
 	display: block;
 }
@@ -190,23 +156,7 @@ main figcaption {
 	color: #4d4d4d;
 	font-size: 1.2em;
 }
-main blockquote {
-	background: #ddd;
-	color: #4d4d4d;
-	font-size: 1.3em;
-	line-height: 1.6;
-	margin-bottom: 1em;
-	padding: .5em .5em 0;
-}
-main blockquote footer{
-	background: #4d4d4d;
-	color: #fff;
-	text-align: right;
-	padding: .5em;
-	line-height: 1;
-	margin: .5em -.5em 0;
-	font-size: .9em;
-}
+
 
 main h4 {
 	font-size: 1em;
@@ -216,13 +166,6 @@ main h4 {
 }
 
 
-main footer.articleFooter p {
-	margin:0 0 .5em;
-}
-main footer.articleFooter p:first-child {
-	font-weight: bold;
-	font-style: italic;
-}
 
 main time.pubdate {
 	text-align: left;
@@ -232,19 +175,7 @@ main article section h3 {
 	font-size: 2em;
 	margin: 0;
 }
-main article.comment h4 {
-	background: #4d4d4d;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1em;
-	color: #fff;
-	padding: .5em;
-	margin: 0 -.5em .5em;
-	font-weight: normal;
-}
-main article.comment h4 span {
-	font-size: 1.4em;
-	font-weight: bold;
-}
+
 main dt {
 	font-weight: bold;
 	text-transform: uppercase;
@@ -266,7 +197,7 @@ main a:hover {
 
 /*trail news, reviews, and aside styles*/
 
-section#Life h2, section#purpose h2{
+section#Life h2, section#interests h2{
 	font-size: 2.6em;
 	font-weight: normal;
 	color: #7f7f7f;
