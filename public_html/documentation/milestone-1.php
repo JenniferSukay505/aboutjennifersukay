@@ -9,9 +9,9 @@
 		<header id="mainHeader"><!--branding and navigation-->
 			<nav role="navigation">
 				<ul>
-					<li><a href="/links/samples.php" title="Design Samples">Design Samples</a></li>
-					<li><a href="/links/projects.php" title="Projects">Projects</a></li>
-					<li><a href="/links/contact.php" title="Contact">Contact</a></li>
+					<li><a href="../../links/samples.php" title="Design Samples">Design Samples</a></li>
+					<li><a href="../../links/projects.php" title="Projects">Projects</a></li>
+					<li><a href="../../links/contact.php" title="Contact">Contact</a></li>
 				</ul>
 			</nav>
 		</header>
