@@ -9,9 +9,9 @@
 <header id="mainHeader"><!--branding and navigation-->
 <nav role="navigation">
 	<ul>
-		<li><a href="../links/samples.php" title="Design Samples">Design Samples</a></li>
-		<li><a href="../links/projects.php" title="Projects">Projects</a></li>
-		<li><a href="../links/contact.php" title="Contact">Contact</a></li>
+		<li><a href="../../links/samples.php" title="Design Samples">Design Samples</a></li>
+		<li><a href="../../links/projects.php" title="Projects">Projects</a></li>
+		<li><a href="../../links/contact.php" title="Contact">Contact</a></li>
 	</ul>
 </nav>
 </header>
@@ -52,7 +52,7 @@
 		</header>
 		<h4 id="lead">Pet projects</h4>
 		<p>I have held two project ideas in my heart for years.  Now that I have jumped into coding, I am learning to
-implement them.  Please view my current <a href="/public_html/links/projects.php" title="projects">projects</a> and let me know if you want to contribute.
+implement them.  Please view my current <a href="/links/projects.php" title="projects">projects</a> and let me know if you want to contribute.
 I am also interested in hearing your own ideas. </p>
 		</article>
 	</section>

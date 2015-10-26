@@ -33,8 +33,8 @@
 	<h1>Open Eyes Open Heart Submissions</h1>
 	<nav role="navigation">
 		<ul>
-			<li><a href="/public_html/links/contact.php" title="contact">Contact</a></li>
-			<li><a href="/public_html/links/projects.php" title="Projects">Projects</a></li>
+			<li><a href="/links/contact.php" title="contact">Contact</a></li>
+			<li><a href="/links/projects.php" title="Projects">Projects</a></li>
 		</ul>
 	</nav>
 </header>

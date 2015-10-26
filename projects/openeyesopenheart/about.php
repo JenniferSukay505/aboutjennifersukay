@@ -33,7 +33,7 @@
 				<ul>
 					<li><a href="../raisingheroes/raisingheroeshome.php" title="Home">Home</a></li>
 					<li><a href="../raisingheroes/faq.php" title="FAQ">Q&A</a></li>
-					<li><a href="/public_html/links/contact.php" title="Contact">Contact</a></li>
+					<li><a href="/links/contact.php" title="Contact">Contact</a></li>
 				</ul>
 			</nav>
 		</header>
