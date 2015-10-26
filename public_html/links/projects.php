@@ -71,9 +71,6 @@
 them to look forward to their future?  Bringing inspirations to children and excitement for futures.</p>
 	<section id="earth">
 		<img src="/img/space/earth.png" alt="earth">
-		<div id="stage" style="background: rgba(0,0,0,0.5);">
-			<p id="spinner" style="background: rgba(0,0,0,0.5); text-align: center; color: #fff;">Stop, I'm getting dizzy!</p>
-		</div>
 	</section>
 </main>
 	<footer id="pageFooter" role="contentinfo">
