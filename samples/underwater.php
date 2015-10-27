@@ -6,7 +6,6 @@
 		<title>Deep Dive</title>
 	</head>
 	<body>
-		<header id="mainHeader"><!--branding and navigation-->
 			<nav role="navigation">
 				<ul>
 					<li><a href="../links/samples.php" title="Design Samples">Design Samples</a></li>
@@ -14,7 +13,6 @@
 					<li><a href="../links/contact.php" title="Contact">Contact</a></li>
 				</ul>
 			</nav>
-		</header>
 		<p>Why Cats Scuba Dive</p>
 	<h1>Deep Dive</h1>
 		<p><span id="clearsplash">Deep</span>
