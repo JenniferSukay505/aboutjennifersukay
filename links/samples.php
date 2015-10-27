@@ -15,7 +15,7 @@
 		</footer>
 	</div>
 	<div id="underwater">
-	<a href="/samples/underwater.php"><img id="water" src="../img/water/scubacat4.jpg" alt="underwater"</a>
+	<a href="../samples/underwater.php"><img id="water" src="../img/water/scubacat4.jpg" alt="underwater"</a>
 	<footer id="link">
 		<a href="../samples/underwater.php">Underwater Dive</a>
 	</footer>
