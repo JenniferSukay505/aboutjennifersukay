@@ -31,15 +31,12 @@
 </head>
 <body>
 	<header id="mainHeader" role="banner"><!--branding and navigation-->
-		<h1>Jenn Designs</h1>
-		<p>Advertising and Web Design Source</p>
 		<nav role="navigation">
 			<ul>
 				<li><a href="../links/samples.php" title="Design Samples">Design Samples</a></li>
 				<li><a href="../links/projects.php" title="Projects">Projects</a></li>
 				<li><a href="../links/contact.php" title="Contact">Contact</a></li>
 			</ul>
-	</header>
 		<!-- Fixed navbar -->
 		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 			<div class="container">
@@ -60,7 +57,7 @@
 					</ul>
 			</div>
 		</nav>
-	<h3 id="lead">Ongoing nonprofit projects</h3>
+	<h3 id="lead">Ongoing Nonprofit Projects</h3>
 </header>
 <main id="ongoingprojects" role="main">
 	<br>
