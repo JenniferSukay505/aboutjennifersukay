@@ -9,7 +9,6 @@
  <body>
 	 <header id="mainHeader" role="banner"><!--branding and navigation-->
 		 <h1>Jenn's Designs</h1>
-		 <header>
 		 <p>Business and web development</p>
 		 <nav role="navigation">
 			 <ul>
@@ -20,7 +19,7 @@
 	 </header>
 	 <main id="contact" role="main">
 		 <h1>Contact Us</h1>
-			 <p><a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">Email/a></p>
+			 <p><a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">Email</a></p>
 			 <p><a href="tel://505-489-9573" title="phone">Phone</a></p>
 	 </main>
 	</body>

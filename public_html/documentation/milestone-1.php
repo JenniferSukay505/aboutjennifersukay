@@ -7,7 +7,7 @@
 </head>
 <body>
 <header id="mainHeader" role="banner"><!--branding and navigation-->
-	<h1><a id="mainTitle" href="milestone-1.php" title="Jenn's Designs">Jenn's Designs</a></h1>
+	<h1><a id="headerTitle" href="milestone-1.php" title="Jenn's Designs">Jenn's Designs</a></h1>
 	<p>Advertising and Web Design Source</p>
 	<nav role="navigation">
 		<ul>
@@ -15,10 +15,11 @@
 			<li><a href="../../links/projects.php" title="Projects">Projects</a></li>
 			<li><a href="../../links/contact.php" title="Contact">Contact</a></li>
 		</ul>
+	</nav>
 </header>
 <main id="aboutjennifer" role="main">
 <header>
-	<h1>About Jennifer Sukay</h1>
+	<h2>About Jennifer Sukay</h2>
 	<figure>
 		<figcaption>Coding Student at <a href="https://bootcamp-coders.cnm.edu/">Deep Dive Coding Bootcamp</a></figcaption>
 		<img id="cat" src="../../img/water/catscuba2.png" alt="coding">
@@ -40,7 +41,7 @@
 		</section>
 </main>
 <section id="current">
-	<h2>Current Projects</h2>
+	<h3>Current Projects</h3>
 	<p><a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">Email me!</a></p>
 	<article role="article">
 		<header>
@@ -59,6 +60,12 @@ implement them.  Please take a look <a href="../../links/projects.php" title="On
 			<p><a href="/pwp/webdesigns.php" title="Jenn's Web Designs" >Gotcha covered!</a></p>
 			<p>If you need a website designed, poke your head in here.</p>
 		</aside>
+	<aside role="complementary">
+		<h3>Ready to learn?</h3>
+		<img src="../../img/codingbootcamp.png" alt="Jenn'sDesigns">
+		<p><a href="//bootcamp-coders.cnm.edu/" title="Learn to Code!">Learn Coding!</a></p>
+		<p>A fast way to learn coding.</p>
+	</aside>
 		<footer id="pageFooter">
 			<div class="rightCol">
 				<p class="topLink"><a href="#mainHeader">return to top</a></p>

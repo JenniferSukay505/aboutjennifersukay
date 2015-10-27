@@ -1,7 +1,12 @@
 @charset "UTF-8";
 
+a {
+	text-decoration: none;
+	color: #cb7d20;
+}
+
 /*limited reset*/
-html, body, div, section, article, aside, header footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+html, body, div, section, article, aside, header, footer, nav, h1, h2, h3, p, blockquote, span, em,  img, ul, li, figure, th, td, tr {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -10,18 +15,15 @@ a {
 	text-decoration: none;
 	color: #cb7d20;
 }
-#mainTitle {
-	color:black;
-}
-
 a:hover {
 	color: #952;
 }
 
-/*html5 display rule*/
-address, article, aside, canvas, details, figcaption, figure, footer, header, nav, menu, nav, section, summary {
+/*html5 display rul*/
+article, aside, figcaption, figure, footer, header, nav, menu, section {
 	display: block;
 }
+
 html {
 	background: #ddd;
 }
@@ -35,16 +37,20 @@ body {
 	background: white;
 }
 
-/* layout styles */
-header#mainHeader {
-	height: 185px;
+nav ul, ul.menu {
+	list-style: none;
 }
+/* layout styles */
 main {
 	float: left;
 	width: 600px;
 	padding: 0 10px 0 25px;
 	margin-bottom: 2em;
 }
+header#mainHeader {
+	height: 185px;
+}
+
 section#interests {
 	float: right;
 	clear: right;
@@ -118,12 +124,10 @@ header#mainHeader h1 {
 	color: #08090e;
 	font-weight: normal;
 }
-
 header#mainHeader p {
 	font-weight: normal;
 	font-size: 2em;
 }
-
 /*trail info section styles*/
 main {
 	border-right: 1px solid #7f7f7f;

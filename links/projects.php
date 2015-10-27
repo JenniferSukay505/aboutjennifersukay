@@ -1,90 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8"/>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<meta name="description" content="Nonprofit organization connecting inspirational speakers with youth">
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="description" content="Nonprofit organization connecting inspirational speakers with youth">
 			<!-- Bootstrap Latest compiled and minified CSS -->
-	<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
 			<!-- Optional Bootstrap theme -->
-	<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet"/>
-	<link rel="stylesheet" href="../css/projects.css" type="text/css">
+<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="../css/projects.css" type="text/css">
 			<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 			<!--[if lt IE 9]>
-	<script type="text/javascript" src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	<script type="text/javascript" src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<script type="text/javascript" src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script type="text/javascript" src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 			<![endif]-->
 
 			<!-- js-cookie -->
-	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/js-cookie/2.0.2/js.cookie.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/js-cookie/2.0.2/js.cookie.min.js"></script>
 
 			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
-	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.14.0/jquery.validate.min.js"></script>
-	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.14.0/additional-methods.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.14.0/jquery.validate.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.14.0/additional-methods.min.js"></script>
 
 			<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
-	<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<title>Projects</title>
+<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<title>Projects</title>
 </head>
 <body>
-	<header id="mainHeader" role="banner"><!--branding and navigation-->
-		<nav role="navigation">
-			<ul>
-				<li><a href="../links/samples.php" title="Design Samples">Design Samples</a></li>
-				<li><a href="../links/projects.php" title="Projects">Projects</a></li>
-				<li><a href="../links/contact.php" title="Contact">Contact</a></li>
-			</ul>
-		<!-- Fixed navbar -->
-		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#">JennsWebDesigns</a>
-				</div>
-				<div id="navbar" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav">
-						<li><a href="samples.php" title="Design Samples">Design Samples</a></li>
-						<li><a href="projects.php" title="Projects">Projects</a></li>
-						<li><a href="contact.php" title="Contact">Contact</a></li>
-					</ul>
-			</div>
-		</nav>
-	<h3 id="lead">Ongoing Nonprofit Projects</h3>
+<header id="mainHeader" role="banner"><!--branding and navigation-->
+	<nav role="navigation">
+		<ul>
+			<li><a href="../links/samples.php" title="Design Samples">Design Samples</a></li>
+			<li><a href="../links/projects.php" title="Projects">Projects</a></li>
+			<li><a href="../links/contact.php" title="Contact">Contact</a></li>
+		</ul>
+	</nav>
 </header>
 <main id="ongoingprojects" role="main">
+<article role="article">
+	<h3 id="lead">Ongoing Nonprofit Projects</h3>
+<section id="project">
+	<h2 id="lead">Open Eyes Open Heart</h2>
+	<aside id="details">Meet their eyes and learn their stories</aside>
+</section>
+	</article>
+	<article role="article">
 	<br>
-	<div id="project">
-		<h2 id="lead">Open Eyes Open Heart</h2>
-		<div id="details">
-		<p> Meet their eyes and learn their stories</p>
-	</div>
-	<br>
-<div class="project">
+<section id="project">
 	<h2 id="lead">Raising Heroes</h2>
 	<p>Children mentorship- we teach our children to treasure their youth. But who teaches
 them to look forward to their future?  Bringing inspirations to children and excitement for futures.</p>
-</div>
-		<div id="submit">
+</section>
+		<aside id="submit">
 			<blockquote>For submissions, <a href="/projects/openeyesopenheart/openeyesopenheartsubmissions.php">click here</a>
 			</blockquote>
-		</div>
+		</aside>
 	<section id="earth">
 		<img id="spinner" src="../img/space/earth.png" alt="earth">
 	</section>
 </main>
-	<footer id="pageFooter" role="contentinfo">
-		<div class="rightCol">
-			<p>Web Designs by Jennifer Sukay</p>
-			<p><a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">email</a></p></div>
+	<footer id="pageFooter" role="contentinfo" class="rightCol">
+		<p><a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">email</a></p>
 		<p>JennWebDesigns</p>
-			<p><a href="tel://505-489-9573" title="phone"</a></p>
+		<p><a href="tel://505-489-9573" title="phone"</a></p>
 	</footer>
 </html>
