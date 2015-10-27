@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="../css/water.css" type="text/css">
+<link rel="stylesheet" href="/css/water.css" type="text/css">
 <title>Deep Dive</title>
 </head>
 <body>
 <nav role="navigation">
 	<ul>
-		<li><a href="../links/samples.php" title="Design Samples">Design Samples</a></li>
-		<li><a href="../links/projects.php" title="Projects">Projects</a></li>
-		<li><a href="../links/contact.php" title="Contact">Contact</a></li>
+		<li><a href="/links/samples.php" title="Design Samples">Design Samples</a></li>
+		<li><a href="/links/projects.php" title="Projects">Projects</a></li>
+		<li><a href="/links/contact.php" title="Contact">Contact</a></li>
 	</ul>
 </nav>
 <h1>Deep Dive</h1>
