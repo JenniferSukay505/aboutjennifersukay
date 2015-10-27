@@ -5,6 +5,7 @@ body {
 	-webkit-animation-duration: 30s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
+	z-index:1;
 }
 
 @-webkit-keyframes pulse {
@@ -47,6 +48,7 @@ p {
 #fog-2 {
 	opacity: 1;
 	-webkit-animation-duration: 120s;
+	z-index:2;
 }
 
 @-webkit-keyframes fogAnimation {
@@ -72,6 +74,7 @@ p {
 	-webkit-animation-duration: 5s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
+	z-index:3;
 }
 
 @-webkit-keyframes glowAnimation {
@@ -93,11 +96,12 @@ p {
 	width: 800px;
 	height: 800px;
 	margin: -400px 0 0 -400px;
-	background: url(../img/light.png) no-repeat center center;
+	background: url(../img/space/lightning.png) no-repeat center center;
 	-webkit-animation-name: lightAnimation;
 	-webkit-animation-duration: 1s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
+	z-index:4;
 }
 
 @-webkit-keyframes lightAnimation {
@@ -145,6 +149,8 @@ p {
 	-webkit-animation-duration: 45s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
+	z-index:5;
+
 }
 
 @-webkit-keyframes starsLargeAlt {
@@ -163,11 +169,13 @@ p {
 	background: url(../img/stars-small.png) no-repeat center center;
 	-webkit-animation-duration: 15s;
 	-webkit-animation-name: starsSmall;
+	z-index:6;
 }
 
 #small-stars-2 {
 	-webkit-animation-name: starsSmallAlt;
 	-webkit-animation-duration: 30s;
+	z-index:7;
 }
 
 @-webkit-keyframes starsSmall {
@@ -189,5 +197,39 @@ p {
 	to {
 		-webkit-transform: rotate(360deg) scale(.5);
 		opacity: 0;
+	}
+}
+#fog,
+#fog-2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 2000px;
+	height: 2000px;
+	margin-top: -1000px;
+	margin-left: -1000px;
+	opacity: .5;
+	background: url(../img/space/fog.png) repeat-x 0 center;
+	-webkit-animation-name: fogAnimation;
+	-webkit-animation-duration: 30s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	z-index:8;
+}
+
+#fog-2 {
+	opacity: 1;
+	-webkit-animation-duration: 120s;
+	z-index:9;
+}
+
+@-webkit-keyframes fogAnimation {
+	from {
+		-webkit-transform: rotate(0deg);
+		background-position: 0 center;
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+		background-position: 1000px center;
 	}
 }

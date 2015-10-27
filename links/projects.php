@@ -72,7 +72,7 @@ them to look forward to their future?  Bringing inspirations to children and exc
 			</blockquote>
 		</div>
 	<section id="earth">
-		<img src="../img/space/earth.png" alt="earth">
+		<img id="spinner" src="../img/space/earth.png" alt="earth">
 	</section>
 </main>
 	<footer id="pageFooter" role="contentinfo">

@@ -12,10 +12,10 @@ body {
 		background: #000;
 	}
 	25% {
-		background-color: #003;
+		background-color: #38053c;
 	}
 	50% {
-		background-color: #030;
+		background-color: rgba(6, 34, 15, 0.78);
 	}
 	to {
 		background: #000;
@@ -27,8 +27,7 @@ p {
 	color: rgba(0, 0, 0, 0);
 }
 
-#fog,
-#fog-2 {
+#fog, {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -42,6 +41,7 @@ p {
 	-webkit-animation-duration: 30s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
+	z-index:1;
 }
 
 #fog-2 {
@@ -67,12 +67,13 @@ p {
 	width: 800px;
 	height: 800px;
 	margin: -400px 0 0 -400px;
-	background: url(/img/space/pinkspace.png) repeat-x 0 0;
+	background: url(..//img/space/blueflame.png) repeat-x 0 0;
 	-webkit-animation-name: glowAnimation;
 	-webkit-animation-duration: 5s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 }
+
 
 @-webkit-keyframes glowAnimation {
 	from {
@@ -93,7 +94,7 @@ p {
 	width: 800px;
 	height: 800px;
 	margin: -400px 0 0 -400px;
-	background: url(../img/light.png) no-repeat center center;
+	background: url(../img/space/lightning.png) no-repeat center center;
 	-webkit-animation-name: lightAnimation;
 	-webkit-animation-duration: 1s;
 	-webkit-animation-iteration-count: infinite;
@@ -112,7 +113,7 @@ p {
 	}
 }
 
-#foreground,
+#stars,
 #stars-2,
 #small-stars,
 #small-stars-2 {
@@ -122,7 +123,7 @@ p {
 	width: 600px;
 	height: 600px;
 	margin: -300px 0 0 -300px;
-	background: url(../img/space/foreground.png) no-repeat center center;
+	background: url(../img/space/stars-large.png) no-repeat center center;
 	-webkit-animation-name: starsLarge;
 	-webkit-animation-duration: 60s;
 	-webkit-animation-iteration-count: infinite;
@@ -160,7 +161,7 @@ p {
 
 #small-stars,
 #small-stars-2 {
-	background: url(../img/space/stars-small.png) no-repeat center center;
+	background: url(../img/space/foreground.png) no-repeat center center;
 	-webkit-animation-duration: 15s;
 	-webkit-animation-name: starsSmall;
 }
@@ -189,5 +190,38 @@ p {
 	to {
 		-webkit-transform: rotate(360deg) scale(.5);
 		opacity: 0;
+	}
+}
+
+#fog, {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 2000px;
+	height: 2000px;
+	margin-top: -1000px;
+	margin-left: -1000px;
+	opacity: .5;
+	background: url(../img/space/fog.jpeg) repeat-x 0 center;
+	-webkit-animation-name: fogAnimation;
+	-webkit-animation-duration: 30s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	z-index:1;
+}
+
+#fog-2 {
+	opacity: 1;
+	-webkit-animation-duration: 120s;
+}
+
+@-webkit-keyframes fogAnimation {
+	from {
+		-webkit-transform: rotate(0deg);
+		background-position: 0 center;
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+		background-position: 1000px center;
 	}
 }

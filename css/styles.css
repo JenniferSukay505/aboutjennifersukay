@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+/*limited reset*/
+html, body, div, section, article, aside, header footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
 a {
 	text-decoration: none;
 	color: #cb7d20;
@@ -13,7 +19,7 @@ address, article, aside, canvas, details, figcaption, figure, footer, header, na
 	display: block;
 }
 html {
-	background: #b1b1b1;
+	background: #ddd;
 }
 body {
 	font: 100% Georgia, "Times New Roman", Times, serif;
@@ -22,7 +28,7 @@ body {
 	padding: 0 50px;
 	text-align:left;
 	position: relative;
-	background: #b1b1b1;
+	background: white;
 }
 
 /* layout styles */
@@ -51,9 +57,7 @@ footer#pageFooter {
 	clear: both;
 	overflow: auto;
 }
-footer#current {
-	background-color:#green
-}
+
 
 /*-------------presentation styles---------------*/
 
@@ -91,7 +95,7 @@ header#mainHeader ul li {
 header#mainHeader ul li a{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.2em;
-	color: #000;
+	color: #cb7d20;
 	padding: 0 20px;
 	border-right: 1px solid #000;
 	text-decoration: none;
@@ -121,7 +125,7 @@ main {
 }
 
 main header a {
-	color: #cb7d20;
+	color: #cb6115;
 }
 main header a:hover {
 	color:#952
@@ -209,25 +213,9 @@ main a:hover {
 	color: #952;
 }
 
-section#reviews article h3 {
-	font-size: 1em;
-	color: #000;
-	background: #c3cebc;
-	margin: 0 -20px .5em;
-	padding: .5em;
-	font-weight: normal;
-}
-section#reviews article h3 span {
-	font-size: 1.4em;
-}
-section#reviews article p {
-	line-height: 1.4;
-	color: #333;
-	margin-bottom:.5em;
-}
 
 aside#adCopy {
-	background: #c3cebc;
+	background: #99cec4;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: .8em;
 	padding-bottom: 1em;
@@ -255,6 +243,10 @@ aside#adCopy a:hover {
 aside#adCopy p{
 	margin-bottom: 0;
 	padding: 0 1em;
+}
+
+header#current{
+	background-color:white;
 }
 /*footer styles*/
 footer#pageFooter {
