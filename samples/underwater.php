@@ -7,9 +7,9 @@
 </head>
 <body>
 	<ul id="nav">
-		<li><a href="../links/samples.php" title="Design Samples">Design Samples</a></li>
-		<li><a href="../links/projects.php" title="Projects">Projects</a></li>
-		<li><a href="../links/contact.php" title="Contact">Contact</a></li>
+		<li><a href="/links/samples.php">Design Samples</a></li>
+		<li><a href="/links/projects.php">Projects</a></li>
+		<li><a href="/links/contact.php">Contact</a></li>
 	</ul>
 	<h1>Deep Dive</h1>
 	<p><span id="clearsplash">Deep</span>

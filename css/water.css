@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
 	background: url("../img/water/underwater2.jpg") no-repeat center center fixed;
 	-webkit-background-size:cover;
@@ -11,6 +12,23 @@ body {
 p {
 	z-index: 0;
 	color: rgb(3, 6, 11);
+}
+
+a:hover {
+	color: #952;
+}
+
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
+	z-index:1000;
+}
+
+#nav li {
+	float: left;
 }
 
 #transparentbubbles {
@@ -29,8 +47,6 @@ p {
 	-webkit-animation-timing-function: linear;
 	z-index: 1;
 }
-
-
 
 @-webkit-keyframes transparentbubblesAnimation {
 	from {

@@ -1,11 +1,5 @@
 @charset "UTF-8";
 
-/*limited reset*/
-html, body, div, section, article, aside, header footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
-	margin: 0;
-	padding: 0;
-	border: 0;
-}
 a {
 	text-decoration: none;
 	color: #cb7d20;
