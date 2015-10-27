@@ -261,7 +261,7 @@ section#current .pubdate {
 section#current aside h3 {
 	font-size: 1.6em;
 	color: #000;
-	background: #929989;
+	background: #aaa8ce;
 	margin: 0 -20px .5em;
 	padding: .5em;
 	font-weight: normal;
@@ -272,7 +272,7 @@ section#current article h3 span {
 	font-size: 1.4em;
 }
 aside#adCopy {
-	background: rgba(255, 255, 255, 0.75);
+	background: rgba(201, 206, 148, 0.43);
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: .8em;
 	padding-bottom: 1em;
@@ -280,7 +280,7 @@ aside#adCopy {
 aside#adCopy h3 {
 	font-size: 1.4em;
 	margin-bottom: .2em;
-	color: #4d4d4d;
+	color: #3f3f3f;
 	font-weight:bold;
 	padding: 0.5em;
 }

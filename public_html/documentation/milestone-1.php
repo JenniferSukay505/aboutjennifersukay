@@ -47,7 +47,7 @@
 	</article>
 </main>
 	<article>
-< id="current">
+<div id="current">
 	<h2>Current Projects</h2>
 	<p><a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">Email me!</a></p>
 	<article role="article">
@@ -71,7 +71,7 @@ if you want to contribute.  I am also interested in hearing your own ideas. </p>
 	<aside id="adCopy" role="complementary">
 		<h3>Ready to learn?</h3>
 		<img src="../../img/codingbootcamp.png" alt="JennsDesigns">
-		<p>http://stemuluscenter.org/products/deep-dive-coding-bootcamp</p>
+		<p><a href="//stemuluscenter.org/products/deep-dive-coding-bootcamp">Look Here!</a></p>
 		<p>A fast way to learn coding.</p>
 	</aside>
 		<footer id="pageFooter">
