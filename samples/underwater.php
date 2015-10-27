@@ -2,7 +2,6 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="../css/styles.css" type="text/css">
 		<link rel="stylesheet" href="../css/water.css" type="text/css">
 		<title>Deep Dive</title>
 	</head>

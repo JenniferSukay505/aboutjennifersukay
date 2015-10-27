@@ -7,7 +7,40 @@ body {
 	-webkit-animation-name: pulse;
 	-webkit-animation-duration: 30s;
 }
+nav, ul, li, figure {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
 
+header#mainHeader nav {
+	position: absolute;
+	left: 225px;
+	top: 0;
+	padding-top: 15px;
+}
+header#mainHeader ul {
+	float: left;
+}
+header#mainHeader ul li {
+	float: left;
+}
+header#mainHeader ul li a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	color: #000;
+	padding: 0 20px;
+	border-right: 1px solid #000;
+	text-decoration: none;
+}
+header#mainHeader ul li a:last-child{
+	border: none;
+}
+header#mainHeader ul li a.current {
+	color: #cb7d20;
+}
+header#mainHeader ul li a:hover {
+	color: #cb7d20;
 p {
 	z-index: 0;
 	color: rgb(3, 6, 11);
