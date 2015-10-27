@@ -80,7 +80,7 @@ footer#pageFooter {
 
 /*header styles*/
 header#mainHeader {
-	background-color: gray;
+	background: url(../img/art2.png)no-repeat;
 	padding: 75px 0 0 245px;
 	position: relative;
 	border-bottom: 2px solid #7f7f7f;
@@ -149,7 +149,6 @@ main header h2 {
 	font-size: 1.8em;
 	margin-top: .5em;
 }
-
 main header figure {
 	background-color:white;
 }
@@ -159,14 +158,12 @@ main article h3 {
 	font-size: 3em;
 	margin-bottom: .2em;
 }
-
 main caption {
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 1.4em;
 	text-align: left;
 }
-
 main img{
 	display: block;
 }
@@ -233,15 +230,15 @@ main a:hover {
 	color: #952;
 }
 
-section#current h2 {
+section#current h3 {
 	font-size: 2.6em;
 	font-weight: normal;
-	color: #7f7f7f;
+	color: black;
 	margin-bottom: .5em;
 }
 section#current article {
-	background: #e1d8b9;
-	padding: 1em 1em;
+	background: #e0ffda;
+	padding: 1em;
 	margin-bottom: 1.5em;
 }
 
@@ -264,18 +261,18 @@ section#current .pubdate {
 section#current aside h3 {
 	font-size: 1.6em;
 	color: #000;
-	background: #c3cebc;
+	background: #929989;
 	margin: 0 -20px .5em;
 	padding: .5em;
 	font-weight: normal;
 }
 
+
 section#current article h3 span {
 	font-size: 1.4em;
 }
-
 aside#adCopy {
-	background: #99cec4;
+	background: rgba(255, 255, 255, 0.75);
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: .8em;
 	padding-bottom: 1em;
@@ -293,16 +290,12 @@ aside#adCopy img {
 }
 aside#adCopy a{
 	font-size: 1.2em;
-	color: #952;
+	color: #232323;
 	font-weight: bold;
 }
 aside#adCopy a:hover {
 	color: #3c6b92;
 	text-decoration:underline;
-}
-aside#adCopy p{
-	margin-bottom: 0;
-	padding: 0 1em;
 }
 
 header#current{

@@ -18,16 +18,20 @@
 		</ul>
 	</nav>
 </header>
-<main id="aboutJennifer" role="main">
+<main id="about">
 	<header>
-	<h2>About Jennifer Sukay</h2>
+		<article id="about">
+			<section>
+		<h2 id="lead">About Jennifer Sukay</h2>
+
 	<figure>
 		<figcaption>Coding Student at <a href="https://bootcamp-coders.cnm.edu/">Deep Dive Coding Bootcamp</a></figcaption>
 		<img id="cat" src="../../img/water/catscuba2.png" alt="coding">
 	</figure>
-	</header>
-	<h2>Currently exploring web-design and business through study and implementation.</h2>
-	<article id="purpose" role="main">
+	<blockquote>Currently exploring web-design and business through study and implementation.</blockquote>
+			</section>
+		</article>
+		<article id="purpose" role="main">
 		<section id="goals">
 			<dl>
 				<dt>Offering</dt>
@@ -40,13 +44,15 @@
 				<dd>Garner participation and interest in my own projects</dd>
 			</dl>
 		</section>
-	</main>
-<section id="current">
-	<h3>Current Projects</h3>
+	</article>
+</main>
+	<article>
+< id="current">
+	<h2>Current Projects</h2>
 	<p><a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">Email me!</a></p>
 	<article role="article">
 	<header>
-		<h3>Ongoing</h3>
+		<a id="project" href="/links/projects.php">Ongoing Nonprofit</a>
 		<p class="byline">by Jennifer Sukay</p>
 		<p class="pubdate">submitted on
 			<time datetime="2015-10-25">10/25/15</time>
@@ -56,15 +62,15 @@
 implement them.  Please take a look <a href="../../links/projects.php" title="Ongoing Projects">here</a> and let me know
 if you want to contribute.  I am also interested in hearing your own ideas. </p>
 	</article>
-	<aside role="complementary">
+	<aside id="adCopy">
 		<h3>Need a website?</h3>
 			<img src="../../img/art2.png" alt="Jenn'sDesigns">
 			<p><a href="/pwp/webdesigns.php" title="Jenn's Web Designs" >Gotcha covered!</a></p>
 			<p>If you need a website designed, poke your head in here.</p>
 		</aside>
-	<aside role="complementary">
+	<aside id="adCopy" role="complementary">
 		<h3>Ready to learn?</h3>
-		<p>a hrefe="</p><img src="../../img/codingbootcamp.png" alt="JennsDesigns">
+		<img src="../../img/codingbootcamp.png" alt="JennsDesigns">
 		<p>http://stemuluscenter.org/products/deep-dive-coding-bootcamp</p>
 		<p>A fast way to learn coding.</p>
 	</aside>
