@@ -140,6 +140,10 @@ main header h2 {
 	font-size: 1.8em;
 	margin-top: .5em;
 }
+
+main header figure {
+	background-color:white;
+}
 main article h3 {
 	font-weight: normal;
 	color: #7f7f7f;
@@ -157,6 +161,7 @@ main caption {
 main img{
 	display: block;
 }
+
 main figcaption {
 	text-transform: uppercase;
 	color: #4d4d4d;

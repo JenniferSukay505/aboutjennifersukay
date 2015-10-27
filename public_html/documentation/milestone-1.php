@@ -40,11 +40,11 @@
 		</section>
 </main>
 <section id="current">
-	<h2>Current Project</h2>
+	<h2>Current Projects</h2>
 	<p><a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">Email me!</a></p>
 	<article role="article">
 		<header>
-				<h3>Ongoing projects</h3>
+				<h3>Ongoing</h3>
 				<p class="byline">by Jennifer Sukay</p>
 				<p class="pubdate">submitted on
 					<time datetime="2015-10-25">10/25/15</time>
