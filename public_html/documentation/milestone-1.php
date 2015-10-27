@@ -7,7 +7,7 @@
 </head>
 <body>
 <header id="mainHeader" role="banner"><!--branding and navigation-->
-	<h1>Jenn Designs</h1>
+	<h1><a id="mainTitle" href="milestone-1.php" title="Jenn's Designs">Jenn's Designs</a></h1>
 	<p>Advertising and Web Design Source</p>
 	<nav role="navigation">
 		<ul>

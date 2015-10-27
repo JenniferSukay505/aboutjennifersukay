@@ -10,6 +10,10 @@ a {
 	text-decoration: none;
 	color: #cb7d20;
 }
+#mainTitle {
+	color:black;
+}
+
 a:hover {
 	color: #952;
 }
@@ -114,6 +118,7 @@ header#mainHeader h1 {
 	color: #08090e;
 	font-weight: normal;
 }
+
 header#mainHeader p {
 	font-weight: normal;
 	font-size: 2em;
