@@ -90,6 +90,11 @@ header#mainHeader h1 span {
 	position: absolute;
 	left: -2000em;
 }
+header#mainHeader p banner {
+	position: absolute;
+	left: -2000em;
+	color:darkslateblue;
+}
 header#mainHeader nav {
 	position: absolute;
 	left: 225px;
@@ -168,11 +173,12 @@ main img{
 
 main figcaption {
 	text-transform: uppercase;
-	color: #4d4d4d;
+	color: #232323;
 	font-size: 1.2em;
+	background-color:lightgrey;
 }
 main blockquote {
-	background: #ddd;
+	background: rgba(190, 186, 182, 0.71);
 	color: #4d4d4d;
 	font-size: 1.3em;
 	line-height: 1.6;
