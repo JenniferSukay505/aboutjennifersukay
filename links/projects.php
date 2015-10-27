@@ -47,7 +47,7 @@
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
 						<li><a href="samples.php" title="Design Samples">Design Samples</a></li>
-						<li><a href="projects.php" title="Non-Profit Projects">Non-Profit Projects</a></li>
+						<li><a href="projects.php" title="Projects">Projects</a></li>
 						<li><a href="contact.php" title="Contact">Contact</a></li>
 					</ul>
 			</div>
