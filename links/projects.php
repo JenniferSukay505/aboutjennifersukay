@@ -9,8 +9,7 @@
 	<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
 			<!-- Optional Bootstrap theme -->
 	<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet"/>
-	<link rel="stylesheet" type="text/css" href="../css/projects.css">
-			<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<link rel="stylesheet" href="../css/projects.css" type="text/css">
 			<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 			<!--[if lt IE 9]>
 	<script type="text/javascript" src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -31,7 +30,16 @@
 	<title>Projects</title>
 </head>
 <body>
-<header id="mainHeader" role="banner">
+	<header id="mainHeader" role="banner"><!--branding and navigation-->
+		<h1>Jenn Designs</h1>
+		<p>Advertising and Web Design Source</p>
+		<nav role="navigation">
+			<ul>
+				<li><a href="../links/samples.php" title="Design Samples">Design Samples</a></li>
+				<li><a href="../links/projects.php" title="Projects">Projects</a></li>
+				<li><a href="../links/contact.php" title="Contact">Contact</a></li>
+			</ul>
+	</header>
 		<!-- Fixed navbar -->
 		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 			<div class="container">
