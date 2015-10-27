@@ -13,7 +13,7 @@
 			<span id="fog-2">long time</span>
 			<span id="pinkspace">ago,</span>
 			<span id="light">in a</span>
-			<span id="stars">galaxy</span>
+			<span id="foreground">galaxy</span>
 			<span id="stars-2">far</span>
 			<span id="small-stars">far</span>
 			<span id="small-stars-2">away&hellip;</span>

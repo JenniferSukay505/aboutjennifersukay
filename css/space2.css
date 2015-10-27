@@ -112,7 +112,7 @@ p {
 	}
 }
 
-#stars,
+#foreground,
 #stars-2,
 #small-stars,
 #small-stars-2 {
@@ -122,7 +122,7 @@ p {
 	width: 600px;
 	height: 600px;
 	margin: -300px 0 0 -300px;
-	background: url(../img/space/stars-large.png) no-repeat center center;
+	background: url(../img/space/foreground.png) no-repeat center center;
 	-webkit-animation-name: starsLarge;
 	-webkit-animation-duration: 60s;
 	-webkit-animation-iteration-count: infinite;
