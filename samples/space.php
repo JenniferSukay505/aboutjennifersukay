@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Space</title>
-		<link rel="stylesheet" href="../css/space.css" type="text/css">
+		<link rel="stylesheet" href="../css/space2.css" type="text/css">
 	</head>
 	<body>
 		<h1>Space</h1>
@@ -17,7 +17,6 @@
 			<span id="stars-2">far</span>
 			<span id="small-stars">far</span>
 			<span id="small-stars-2">away&hellip;</span>
-		</p>
 		</p>
 	</body>
 </html>

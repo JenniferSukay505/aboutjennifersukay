@@ -19,7 +19,7 @@ address, article, aside, canvas, details, figcaption, figure, footer, header, na
 	display: block;
 }
 html {
-	background: #ddd;
+	background: #b1b1b1;
 }
 body {
 	font: 100% Georgia, "Times New Roman", Times, serif;
@@ -28,7 +28,7 @@ body {
 	padding: 0 50px;
 	text-align:left;
 	position: relative;
-	background: white;
+	background: #b1b1b1;
 }
 
 /* layout styles */
@@ -57,7 +57,9 @@ footer#pageFooter {
 	clear: both;
 	overflow: auto;
 }
-
+footer#current {
+	background-color:#green
+}
 
 /*-------------presentation styles---------------*/
 
@@ -111,7 +113,7 @@ header#mainHeader ul li a:hover {
 }
 header#mainHeader h1 {
 	font-size: 6em;
-	color: #7f7f7f;
+	color: #08090e;
 	font-weight: normal;
 }
 header#mainHeader p {

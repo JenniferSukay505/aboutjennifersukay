@@ -23,9 +23,7 @@
 					<img id="cat" src="../../img/water/catscuba2.png" alt="coding">
 				</figure>
 			</header>
-			<section>
-				<h2>Currently exploring web-design and business through study and implementation.</h2>
-			</section>
+			<h2>Currently exploring web-design and business through study and implementation.</h2>
 			<article id="purpose">
 				<section id="goals">
 					<dl>
@@ -43,23 +41,23 @@
 		<section id="interests">
 			<h2>Life</h2>
 			<article role="article">
-				<head>
+				<header>
 					<h3>What I have been up to</h3>
 					<p class="byline">by Jennifer Sukay</p>
 					<p class="pubdate">submitted on
 						<time datetime="2015-10-25">10/25/15</time>
 					</p>
-				</head>
+				</header>
 				<h4 id="lead">Designing pet projects</h4>
 				<p>I have had two project ideas in my heart for years.  Now that I have jumped into coding, I am learning to
-					implement them.  Please view my current <a href="/links/projects.php" title="projects">projects</a> and let me know if you want to contribute.
+					implement them.  Please view my current <a href="../../links/projects.php" title="projects">projects</a> and let me know if you want to contribute.
 					I am also interested in hearing your own ideas. </p>
 			</article>
 		</section>
 		<aside id="adCopy" role="complementary">
 			<h3>Need a website?</h3>
 			<img src="../../img/art2.png" alt="Jenn'sDesigns">
-			<p><a href="/pwp/webdesigns.php" title="Jenn's Web Designs" rel="external nofollow">Gotcha covered!</a></p>
+			<p><a href="/pwp/webdesigns.php" title="Jenn's Web Designs" >Gotcha covered!</a></p>
 			<p>If you need a website designed, poke your head in here.</p>
 		</aside>
 		<footer id="pageFooter">
