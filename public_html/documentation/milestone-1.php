@@ -39,7 +39,7 @@
 			</dl>
 		</section>
 </main>
-<section id="ongoing">
+<section id="current">
 	<h2>Current Project</h2>
 	<p><a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">Email me!</a></p>
 	<article role="article">

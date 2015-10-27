@@ -218,6 +218,46 @@ main a:hover {
 	color: #952;
 }
 
+section#current h2 {
+	font-size: 2.6em;
+	font-weight: normal;
+	color: #7f7f7f;
+	margin-bottom: .5em;
+}
+section#current article {
+	background: #e1d8b9;
+	padding: 1em 1em;
+	margin-bottom: 1.5em;
+}
+
+section#current .byline {
+	font-size: 1.4em;
+	color: #666;
+	font-weight: normal;
+	line-height: 1.2;
+	margin-bottom: .2em;
+}
+section#current article p, section#current aside p, aside#adCopy p {
+	line-height: 1.8;
+	color: #333;
+	margin-bottom:1em;
+}
+section#current .pubdate {
+	color: #666;
+}
+
+section#current aside h3 {
+	font-size: 1.6em;
+	color: #000;
+	background: #c3cebc;
+	margin: 0 -20px .5em;
+	padding: .5em;
+	font-weight: normal;
+}
+
+section#current article h3 span {
+	font-size: 1.4em;
+}
 
 aside#adCopy {
 	background: #99cec4;
