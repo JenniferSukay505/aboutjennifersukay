@@ -67,7 +67,7 @@ p {
 	width: 800px;
 	height: 800px;
 	margin: -400px 0 0 -400px;
-	background: url(../img/space/glow.png) repeat-x 0 0;
+	background: url(/img/space/pinkspace.png) repeat-x 0 0;
 	-webkit-animation-name: glowAnimation;
 	-webkit-animation-duration: 5s;
 	-webkit-animation-iteration-count: infinite;

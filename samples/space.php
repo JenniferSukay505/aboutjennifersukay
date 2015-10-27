@@ -11,7 +11,7 @@
 		<p>
 			<span id="fog">A long</span>
 			<span id="fog-2">long time</span>
-			<span id="glow">ago,</span>
+			<span id="pinkspace">ago,</span>
 			<span id="light">in a</span>
 			<span id="stars">galaxy</span>
 			<span id="stars-2">far</span>
