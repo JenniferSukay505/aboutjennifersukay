@@ -1,6 +1,7 @@
 body {
 	background: #000;
 	overflow: hidden;
+	/*name the animation*/
 	-webkit-animation-name: pulse;
 	-webkit-animation-duration: 30s;
 	-webkit-animation-iteration-count: infinite;
@@ -10,16 +11,16 @@ body {
 
 @-webkit-keyframes pulse {
 	from {
-		background: #000;
+		background: #270e48;
 	}
 	25% {
-		background-color: #003;
+#		background-color: #895528;
 	}
 	50% {
-		background-color: #030;
+		background-color: #D25825;
 	}
 	to {
-		background: #000;
+		background: #270e48#;
 	}
 }
 
