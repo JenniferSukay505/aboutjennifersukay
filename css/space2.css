@@ -6,7 +6,6 @@ body {
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 }
-
 @-webkit-keyframes pulse {
 	from {
 		background: #000;
@@ -21,12 +20,10 @@ body {
 		background: #000;
 	}
 }
-
 p {
 	z-index: 0;
 	color: rgba(0, 0, 0, 0);
 }
-
 #fog, {
 	position: absolute;
 	top: 50%;
@@ -41,14 +38,11 @@ p {
 	-webkit-animation-duration: 30s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
-	z-index:1;
 }
-
 #fog-2 {
 	opacity: 1;
 	-webkit-animation-duration: 120s;
 }
-
 @-webkit-keyframes fogAnimation {
 	from {
 		-webkit-transform: rotate(0deg);
@@ -59,7 +53,6 @@ p {
 		background-position: 1000px center;
 	}
 }
-
 #whitestars {
 	position: absolute;
 	top: 50%;
@@ -73,8 +66,6 @@ p {
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 }
-
-
 @-webkit-keyframes whitestarsAnimation {
 	from {
 		opacity: 1;
@@ -86,7 +77,6 @@ p {
 		opacity: 1;
 	}
 }
-
 #midground {
 	position: absolute;
 	top: 50%;
@@ -94,13 +84,12 @@ p {
 	width: 800px;
 	height: 800px;
 	margin: -400px 0 0 -400px;
-	background: url(../img/midground/.png) no-repeat center center;
+	background: url(../img/space/midground.png) no-repeat center center;
 	-webkit-animation-name: midgroundAnimation;
 	-webkit-animation-duration: 1s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 }
-
 @-webkit-keyframes midgroundAnimation {
 	from {
 		opacity: .25;
@@ -112,8 +101,30 @@ p {
 		opacity: .25;
 	}
 }
-
-#stars,
+#sunglow2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 800px;
+	height: 800px;
+	margin: -400px 0 0 -400px;
+	background: url(../img/space/sunglow2.png) no-repeat center center;
+	-webkit-animation-name: midgroundAnimation;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes midgroundAnimation {
+	from {
+		opacity: .25;
+	}
+	50% {
+		opacity: .5;
+	}
+	to {
+		opacity: .25;
+	}
+}
 #stars-2,
 #small-stars,
 #small-stars-2 {
@@ -129,8 +140,7 @@ p {
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 }
-
-@-webkit-keyframes starsLarge {
+@-webkit-keyframes sunglow2Animation {
 	from {
 		-webkit-transform: rotate(0deg) scale(3);
 		opacity: .1;
@@ -140,14 +150,12 @@ p {
 		opacity: 0;
 	}
 }
-
 #stars-2 {
 	-webkit-animation-name: starsLargeAlt;
 	-webkit-animation-duration: 45s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 }
-
 @-webkit-keyframes starsLargeAlt {
 	from {
 		-webkit-transform: rotate(180deg) scale(3);
@@ -158,19 +166,16 @@ p {
 		opacity: 0;
 	}
 }
-
 #small-stars,
 #small-stars-2 {
 	background: url(../img/space/foreground.png) no-repeat center center;
 	-webkit-animation-duration: 15s;
 	-webkit-animation-name: starsSmall;
 }
-
 #small-stars-2 {
 	-webkit-animation-name: starsSmallAlt;
 	-webkit-animation-duration: 30s;
 }
-
 @-webkit-keyframes starsSmall {
 	from {
 		-webkit-transform: rotate(360deg) scale(3);
@@ -181,7 +186,6 @@ p {
 		opacity: 0;
 	}
 }
-
 @-webkit-keyframes starsSmallAlt {
 	from {
 		-webkit-transform: rotate(0deg) scale(3);
@@ -192,7 +196,6 @@ p {
 		opacity: 0;
 	}
 }
-
 #fog, {
 	position: absolute;
 	top: 50%;
@@ -209,12 +212,10 @@ p {
 	-webkit-animation-timing-function: linear;
 	z-index:1;
 }
-
 #fog-2 {
 	opacity: 1;
 	-webkit-animation-duration: 120s;
 }
-
 @-webkit-keyframes fogAnimation {
 	from {
 		-webkit-transform: rotate(0deg);

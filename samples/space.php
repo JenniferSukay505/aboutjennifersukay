@@ -5,7 +5,7 @@
 	<title>Space</title>
 	<link rel="stylesheet" href="../css/space2.css" type="text/css">
 </head>
-<body>
+<body>img/art2.png
 	<nav>
 		<ul>
 			<li><a href="../links/samples.php" title="Design Samples">Design Samples</a></li>
