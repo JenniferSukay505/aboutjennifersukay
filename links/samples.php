@@ -22,7 +22,7 @@
 	<div id="star">
 	<a href="../samples/space.php"><img id="star" src="../img/space/starry.png" alt="Galaxy"</a>
 		<footer id="link">
-			<a href="../samples/space.php">Galaxy</a>
+			<a href="../samples/space.php">Sky</a>
 		</footer>
 	</div>
 	<div id="underwater">
