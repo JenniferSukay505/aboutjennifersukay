@@ -18,10 +18,12 @@
 		<span id="fog-2">long time</span>
 		<span id="glow">ago,</span>
 		<span id="light">in a</span>
-		<span id="stars">night</span>
+		<span id="stars">sky++
+
+		xxx</span>
 		<span id="stars-2">so</span>
 		<span id="small-stars">so</span>
-		<span id="small-stars-2">quiet&hellip;</span>
+		<span id="small-stars-2">pretty&hellip;</span>
 	</p>
 </body>
 </html>
