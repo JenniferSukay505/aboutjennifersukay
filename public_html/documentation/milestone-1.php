@@ -46,7 +46,7 @@
 	<a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">Email me!</a>
 	<article>
 		<header>
-			<h3><a id="project" href="/links/projects.php">Ongoing Nonprofit</a></h3>
+			<h3><a id="project" href="../../links/projects.php">Ongoing Nonprofit</a></h3>
 			<p class="byline">by Jennifer Sukay</p>
 			<p class="pubdate">submitted on
 				<time datetime="2015-10-25">10/25/15</time>
