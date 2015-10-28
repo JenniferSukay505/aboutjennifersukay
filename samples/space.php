@@ -16,11 +16,9 @@
 	<p>
 		<span id="fog">A long</span>
 		<span id="fog-2">long time</span>
-		<span id="glow">ago,</span>
+		<span id="sunglow2">ago,</span>
 		<span id="light">in a</span>
-		<span id="stars">sky++
-
-		xxx</span>
+		<span id="stars"></span>
 		<span id="stars-2">so</span>
 		<span id="small-stars">so</span>
 		<span id="small-stars-2">pretty&hellip;</span>

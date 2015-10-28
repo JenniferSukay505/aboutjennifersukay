@@ -63,14 +63,14 @@ p {
 	}
 }
 
-#glow {
+#sunglow2 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	width: 800px;
 	height: 800px;
 	margin: -400px 0 0 -400px;
-	background: url(../img/space/glowwhite.png) repeat-x 0 0;
+	background: url(../img/space/sunglow2.png) repeat-x 0 0;
 	-webkit-animation-name: glowAnimation;
 	-webkit-animation-duration: 5s;
 	-webkit-animation-iteration-count: infinite;
@@ -78,7 +78,7 @@ p {
 	z-index:3;
 }
 
-@-webkit-keyframes glowAnimation {
+@-webkit-keyframes sunglow2Animation {
 	from {
 		opacity: 1;
 	}
