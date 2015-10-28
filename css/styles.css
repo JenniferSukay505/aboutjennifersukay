@@ -1,29 +1,18 @@
 @charset "UTF-8";
-
-a {
-	text-decoration: none;
-	color: #cb7d20;
+a:hover {
+	color: #952;
 }
-
 /*limited reset*/
 html, body, div, section, article, aside, header, footer, nav, h1, h2, h3, p, blockquote, span, em,  img, ul, li, figure, th, td, tr {
 	margin: 0;
 	padding: 0;
 	border: 0;
 }
-a {
-	text-decoration: none;
-	color: #cb7d20;
-}
-a:hover {
-	color: #952;
-}
-
 /*html5 display rul*/
-article, aside, figcaption, figure, footer, header, nav, menu, section {
+article, aside, figcaption, figure, footer, header, nav, menu, section,
+summary {
 	display: block;
 }
-
 html {
 	background: #ddd;
 }
@@ -230,6 +219,9 @@ main a:hover {
 	color: #952;
 }
 
+section#current a{
+	color:#cb7d20;
+}
 section#current h3 {
 	font-size: 2.6em;
 	font-weight: normal;
@@ -238,41 +230,40 @@ section#current h3 {
 }
 section#current article {
 	background: #e0ffda;
-	padding: 1em;
+	padding: 1em 1em;
 	margin-bottom: 1.5em;
 }
 
 section#current .byline {
 	font-size: 1.4em;
-	color: #666;
+	color: #2d2b66;
 	font-weight: normal;
 	line-height: 1.2;
 	margin-bottom: .2em;
 }
 section#current article p, section#current aside p, aside#adCopy p {
 	line-height: 1.8;
-	color: #333;
+	color: #1a0801;
 	margin-bottom:1em;
 }
 section#current .pubdate {
-	color: #666;
+	color: #270e48;
 }
 
 section#current aside h3 {
 	font-size: 1.6em;
 	color: #000;
-	background: #aaa8ce;
+	background: #8c73ce;
 	margin: 0 -20px .5em;
 	padding: .5em;
 	font-weight: normal;
 }
 
-
 section#current article h3 span {
 	font-size: 1.4em;
 }
 aside#adCopy {
-	background: rgba(201, 206, 148, 0.43);
+	background: rgba(118, 160, 191, 0.65);
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: .8em;
 	padding-bottom: 1em;
@@ -287,6 +278,7 @@ aside#adCopy h3 {
 aside#adCopy img {
 	display: block;
 	margin: .5em auto;
+	height:150px;
 }
 aside#adCopy a{
 	font-size: 1.2em;
