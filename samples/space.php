@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Space</title>
+	<title>Color</title>
 	<link rel="stylesheet" href="../css/space2.css" type="text/css">
 </head>
-<body>img/art2.png
+<body>
 	<nav>
 		<ul>
 			<li><a href="../links/samples.php" title="Design Samples">Design Samples</a></li>
@@ -14,14 +14,8 @@
 		</ul>
 	</nav>
 	<p>
-		<span id="fog">A long</span>
-		<span id="fog-2">long time</span>
-		<span id="sunglow2">ago,</span>
-		<span id="light">in a</span>
-		<span id="stars"></span>
-		<span id="stars-2">so</span>
-		<span id="small-stars">so</span>
-		<span id="small-stars-2">pretty&hellip;</span>
+		<span id="midground">in a</span>
+		<span id="sunglow2">pretty&hellip;</span>
 	</p>
 </body>
 </html>
