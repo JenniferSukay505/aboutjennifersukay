@@ -6,7 +6,6 @@
 	<link rel="stylesheet" href="../css/space2.css" type="text/css">
 </head>
 <body>
-	<h1>Space</h1>
 	<nav>
 		<ul>
 			<li><a href="../links/samples.php" title="Design Samples">Design Samples</a></li>
@@ -15,17 +14,14 @@
 		</ul>
 	</nav>
 	<p>
-		work in progress
-		<!--work in progress
 		<span id="fog">A long</span>
 		<span id="fog-2">long time</span>
 		<span id="glow">ago,</span>
 		<span id="light">in a</span>
-		<span id="stars">galaxy</span>
-		<span id="stars-2">far</span>
-		<span id="small-stars">far</span>
-		<span id="small-stars-2">away&hellip;</span>
-		-->
+		<span id="stars">night</span>
+		<span id="stars-2">so</span>
+		<span id="small-stars">so</span>
+		<span id="small-stars-2">quiet&hellip;</span>
 	</p>
 </body>
 </html>

@@ -60,22 +60,22 @@ p {
 	}
 }
 
-#glow {
+#whitestars {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	width: 800px;
 	height: 800px;
 	margin: -400px 0 0 -400px;
-	background: url(..//img/space/blueflame.png) repeat-x 0 0;
-	-webkit-animation-name: glowAnimation;
+	background: url(../img/space/whitestars.png) repeat-x 0 0;
+	-webkit-animation-name: whitestarsAnimation;
 	-webkit-animation-duration: 5s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 }
 
 
-@-webkit-keyframes glowAnimation {
+@-webkit-keyframes whitestarsAnimation {
 	from {
 		opacity: 1;
 	}
@@ -87,21 +87,21 @@ p {
 	}
 }
 
-#light {
+#midground {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	width: 800px;
 	height: 800px;
 	margin: -400px 0 0 -400px;
-	background: url(../img/space/lightning.png) no-repeat center center;
-	-webkit-animation-name: lightAnimation;
+	background: url(../img/midground/.png) no-repeat center center;
+	-webkit-animation-name: midgroundAnimation;
 	-webkit-animation-duration: 1s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 }
 
-@-webkit-keyframes lightAnimation {
+@-webkit-keyframes midgroundAnimation {
 	from {
 		opacity: .25;
 	}

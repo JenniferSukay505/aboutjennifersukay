@@ -42,6 +42,7 @@
 </main>
 <section id="currentProjects">
 	<h2>Current Projects</h2>
+	<!--todo add help parents date project-->
 	<a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">Email me!</a>
 	<article>
 		<header>
