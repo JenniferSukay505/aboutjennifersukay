@@ -21,7 +21,7 @@ summary {
 	display: block;
 }
 html {
-	background: #ddd;
+	background: #6fd3db;
 }
 body {
 	font: 100% Georgia, "Times New Roman", Times, serif;
@@ -172,20 +172,6 @@ main img {
 	clear:both;
 }
 
-
-
-main figcaption {
-	text-transform: uppercase;
-	color: #232323;
-	font-size: 1.2em;
-}
-main blockquote {
-	color: #363831;
-	font-size: 1.3em;
-	line-height: 1.6;
-	margin-bottom: 1em;
-	padding: .5em .5em 0;
-}
 main footer.articleFooter p {
 	margin:0 0 .5em;
 }
@@ -205,10 +191,11 @@ main article section h3 {
 
 main dt {
 	display:inline-block;
+	background-color: transparent;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align:left;
-	color:#4d4d4d;
+	color:#f5b88c;
 	margin: 3em 0 1em;
 	left:80px;
 }
@@ -224,7 +211,12 @@ main a {
 main a:hover {
 	color: #952;
 }
-
+section#goals {
+	background-color:#f5b88c;
+}
+section#goals dt {
+	color:#7f3b34;
+}
 section#current a{
 	color:#cb7d20;
 }

@@ -23,23 +23,21 @@
 <article id="purpose" role="main">
 	<section>
 	<h2 id="lead">About Jennifer Sukay</h2>
-	<figure class="clear">
-	<figcaption>Coding Student at <a href="https://bootcamp-coders.cnm.edu/">Deep Dive Coding Bootcamp</a></figcaption>
-		<img src="../../img/water/catscuba2.png" alt="coding"/>
-		<div id="clear"></div>
-	</figure>
+	<p id="sub">Coding Student at <a href="https://bootcamp-coders.cnm.edu/">Deep Dive Coding Bootcamp</a></p>
 	</section>
 	<article>
+		<section id="goals">
 		<dl>
 		<dt>Offering</dt>
 		<dd>Light website design services.</dd>
 		<dd>Opportunities to connect and participate in interesting projects</dd>
 		<dt><span id="lead">Audience</span></dt>
 		<dd>Entrepreneurs looking to have their website designed.</p></dd>
-		<dt><span id="lead">Goal</span></dt>
+		<dt><span id="lead">Goals</span></dt>
 		<dd>Attract part-time employment through a business or potential freelance clients.</dd>
 		<dd>Garner participation and interest in my own projects</dd>
 	</dl>
+		</section>
 	</article>
 </main>
 <section id="currentProjects">
