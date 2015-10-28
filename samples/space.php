@@ -15,6 +15,8 @@
 		</ul>
 	</nav>
 	<p>
+		work in progress
+		<!--work in progress
 		<span id="fog">A long</span>
 		<span id="fog-2">long time</span>
 		<span id="glow">ago,</span>
@@ -23,6 +25,7 @@
 		<span id="stars-2">far</span>
 		<span id="small-stars">far</span>
 		<span id="small-stars-2">away&hellip;</span>
+		-->
 	</p>
 </body>
 </html>

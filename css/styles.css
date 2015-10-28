@@ -1,15 +1,22 @@
 @charset "UTF-8";
-a:hover {
-	color: #952;
-}
+
 /*limited reset*/
-html, body, div, section, article, aside, header, footer, nav, h1, h2, h3, p, blockquote, span, em,  img, ul, li, figure, th, td, tr {
+html, body, div, section, article, aside, header, footer, nav, h1, h2, h3, h4,  p, blockquote, span, em,  img, ul, li, figure, th, td, tr {
 	margin: 0;
 	padding: 0;
 	border: 0;
 }
+a {
+	text-decoration: none;
+	color:#cb7d20;
+}
+
+a:hover {
+	color: #952;
+}
+
 /*html5 display rul*/
-article, aside, figcaption, figure, footer, header, nav, menu, section,
+article, aside, figcaption, figure, footer, header, menu, nav, section,
 summary {
 	display: block;
 }
@@ -25,9 +32,11 @@ body {
 	position: relative;
 	background: white;
 }
-
 nav ul, ul.menu {
 	list-style: none;
+}
+header#mainHeader {
+	height: 185px;
 }
 /* layout styles */
 main {
@@ -36,11 +45,7 @@ main {
 	padding: 0 10px 0 25px;
 	margin-bottom: 2em;
 }
-header#mainHeader {
-	height: 185px;
-}
-
-section#interests {
+section#currentProjects, section#projects {
 	float: right;
 	clear: right;
 	width: 450px;
@@ -56,8 +61,17 @@ footer#pageFooter {
 	clear: both;
 	overflow: auto;
 }
-
-
+.floatRight {
+	float: right;
+}
+.floatLeft {
+	float: left;
+}
+.imgRight {
+	float: right;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
 /*-------------presentation styles---------------*/
 
 .pubdate {
@@ -78,11 +92,6 @@ header#mainHeader {
 header#mainHeader h1 span {
 	position: absolute;
 	left: -2000em;
-}
-header#mainHeader p banner {
-	position: absolute;
-	left: -2000em;
-	color:darkslateblue;
 }
 header#mainHeader nav {
 	position: absolute;
@@ -122,7 +131,7 @@ header#mainHeader p {
 	font-weight: normal;
 	font-size: 2em;
 }
-/*trail info section styles*/
+/*project section styles*/
 main {
 	border-right: 1px solid #7f7f7f;
 }
@@ -137,9 +146,6 @@ main header h2 {
 	font-weight: normal;
 	font-size: 1.8em;
 	margin-top: .5em;
-}
-main header figure {
-	background-color:white;
 }
 main article h3 {
 	font-weight: normal;

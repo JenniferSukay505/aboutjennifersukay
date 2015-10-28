@@ -20,18 +20,17 @@
 </header>
 <main id="about">
 <header>
-<article id="about">
+<article id="purpose" role="main">
 	<section>
 	<h2 id="lead">About Jennifer Sukay</h2>
 	<figure>
 	<figcaption>Coding Student at <a href="https://bootcamp-coders.cnm.edu/">Deep Dive Coding Bootcamp</a></figcaption>
 		<img id="cat" src="../../img/water/catscuba2.png" alt="coding">
 	</figure>
-	<blockquote>Currently exploring web-design and business through study and implementation.</blockquote>
+	<q>Currently exploring web-design and business through study and implementation.<q>
 	</section>
-</article>
-<article id="purpose" role="main">
-<section id="goals">
+
+	<section id="goals">
 	<dl>
 		<dt>Offering</dt>
 		<dd>Light website design services.</dd>
@@ -44,8 +43,8 @@
 	</dl>
 </article>
 </main>
-<section id="current">
-	<h3>Current Projects</h3>
+<section id="currentProjects">
+	<h2>Current Projects</h2>
 	<a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">Email me!</a>
 	<article>
 		<header>
@@ -58,7 +57,7 @@
 		<p>I have had two project ideas in my heart for years.  Now that I have jumped into coding, I am learning to
 implement them.  Please take a look <a href="../../links/projects.php" title="Ongoing Projects">here</a> and let me know
 if you want to contribute.  I am also interested in hearing your own ideas. </p>
-	</article>
+		</article>
 <aside id="adCopy">
 	<h3>Need a website?</h3>
 	<img src="../../img/art2.png" alt="Jenn'sDesigns">
