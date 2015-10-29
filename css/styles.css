@@ -113,9 +113,7 @@ header#mainHeader ul li a{
 	border-right: 1px solid #000;
 	text-decoration: none;
 }
-header#mainHeader ul li a:last-child{
-	border: none;
-}
+
 header#mainHeader ul li a.current {
 	color: #cb7d20;
 }
@@ -131,8 +129,8 @@ header#mainHeader p {
 	font-weight: normal;
 	font-size: 2em;
 }
-header#mainHearder p#sub {
-	color: #706EAB;
+header#mainHeader p#sub {
+	color: #85ab80;
 }
 /*project section styles*/
 main {

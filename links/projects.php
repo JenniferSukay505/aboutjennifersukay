@@ -43,11 +43,11 @@
 <article role="article">
 	<section id="projectDetails">
 <header>
-	<h1>In Development</h1>
+	<h1>Ongoing Projects</h1>
 </header>
 	<h2>Help Parents Date</h2>
 	<p id="projectTitle">According to many of us, our parents need help in the dating department.  This is a fun opportunity
-	to safely set our parents up on dates we approve of.</p>
+to safely set our parents up on dates we approve of.</p>
 	</section>
 	<section id="projectDetails">
 <header>
