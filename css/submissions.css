@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/*limited reset*/
+html, body, div, section, article, aside, header, footer, nav, h1, h2, h3, h4,  p, blockquote, span, em,  img, ul, li, figure, th, td, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a {
+	text-decoration: none;
+	color:#cb7d20;
+}
+
+a:hover {
+	color: #952;
+}

@@ -29,7 +29,8 @@
 	<title>Projects</title>
 </head>
 <body>
-<header id="mainHeader" role="banner"><!--branding and navigation-->
+	<header id="mainHeader" role="banner">
+		<h1>Jenn's Designs</h1>
 <nav role="navigation">
 	<ul>
 		<li><a href="sample.php" title="Design Samples">Latest Design</a></li>
@@ -48,3 +49,7 @@
 			<p id="projectTitle">According to many of us, our parents need help in the dating department.  This is a fun opportunity
 to safely set our parents up on dates we approve of.</p>
 		</section>
+		<aside id="submit">
+			<blockquote>For submissions,<a href="../projects/openeyesopenheart/openeyesopenheartsubmissions.php">click here</a>
+			</blockquote>
+		</aside>

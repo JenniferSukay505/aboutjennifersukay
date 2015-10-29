@@ -1,13 +1,46 @@
+@charset "UTF-8";
+
+/*limited reset*/
+html, body, div, section, article, aside, header, footer, nav, h1, h2, h3, h4,  p, blockquote, span, em,  img, ul, li, figure, th, td, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a {
+	text-decoration: none;
+	color:#cb7d20;
+}
+
+a:hover {
+	color: #a4c7ce;
+}
+a:active {
+	background-color:pink;
+}
+/*html5 display rul*/
+article, aside, figcaption, figure, footer, header, menu, nav, section,
+summary {
+	display: block;
+}
+html {
+	color: #000000;
+}
+
+::selection {
+	color:deeppink;
+}
+
 body {
 	color: #dddddd;
 	background-color: #000000;
 }
+
 h2 {
 	color: #03060b;
 	background-color: #989dff;
 }
 
-#project {
+section#project {
 	background-color: darkblue;
 }
 blockquote {
@@ -21,9 +54,7 @@ p {
 	font-size: 1.25em;
 }
 
-a:hover {
-	color: #a4c7ce;
-}
+
 header#mainHeader nav {
 	position: absolute;
 	left: 225px;
