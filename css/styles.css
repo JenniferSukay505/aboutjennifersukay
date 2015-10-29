@@ -108,7 +108,7 @@ header#mainHeader ul li {
 header#mainHeader ul li a{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.2em;
-	color: #050b09;
+	color: #1bcc15;
 	padding: 0 20px;
 	border-right: 1px solid #000;
 	text-decoration: none;
@@ -124,7 +124,7 @@ header#mainHeader ul li a:hover {
 }
 header#mainHeader h1 {
 	font-size: 6em;
-	color: #08090e;
+	color: #64bad1;
 	font-weight: normal;
 }
 header#mainHeader p {
@@ -281,6 +281,14 @@ aside#adCopy h3 {
 	font-weight:bold;
 	padding: 0.5em;
 }
+aside#adCopy h3 {
+	font-size: 1.4em;
+	margin-bottom: .2em;
+	color: #3f3f3f;
+	font-weight:bold;
+	padding: 0.5em;
+}
+
 aside#adCopy img {
 	display: block;
 	margin: .5em auto;
