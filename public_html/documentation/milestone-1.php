@@ -56,15 +56,15 @@ their children, of course.</p>
 	</article>
 	<article role="article"">
 	<header>
-		<h2><a id="currentProjects"	href="../../links/projects.php" title="Ongoing Projects">Nonprofit</a></h2>
+		<h2><a id="currentProjects" href="../../links/projects.php" title="Ongoing Projects">Nonprofit</a></h2>
 		<p>I have had project ideas in my heart for years.  Now that I have jumped into coding, I am learning to
 implement them.  Please take a look  and let me know if you want to contribute.  I am also interested in hearing
 your own ideas.</p>
 	</header>
 	</section>
 <aside id="adCopy" role="complementary">
-	<h3><a href="//stemuluscenter.org/products/deep-dive-coding-bootcamp">Ready to Learn?</a></h3>
-	<a href="//stemuluscenter.org/products/deep-dive-coding-bootcamp"><img id="bootcamp" src="../../img/codingbootcamp.png" alt="JennsDesigns"></a>
+	<h3><a id="currentProjects" href="//stemuluscenter.org/products/deep-dive-coding-bootcamp">Ready to Learn?</a></h3>
+	<a id="currentProjects" href="//stemuluscenter.org/products/deep-dive-coding-bootcamp"><img id="bootcamp" src="../../img/codingbootcamp.png" alt="JennsDesigns"></a>
 	<h4 id="code">Get your Code On.</h4>
 </aside>
 	<footer id="pageFooter">

@@ -6,8 +6,8 @@
 <title>Deep Dive</title>
 </head>
 <body>
-<header id="mainHeader" role="banner"><!--branding and navigation-->
-	<h1>Jenn Designs</h1>
+	<!--branding and navigation-->
+<header id="mainHeader">
 	<p>Deep Dive</p>
 	<nav role="navigation">
 		<ul>
