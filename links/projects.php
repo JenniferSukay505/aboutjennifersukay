@@ -42,15 +42,15 @@
 	<br>
 </header>
 <main id="ongoingProjects" role="main">
-<article class="flexbox">
-	<section id="project">
+<article class="flexboxParent">
+	<section id="project" class="flexboxChild">
 <header>
 	<h1>Ongoing Projects</h1>
 </header>
-	<h2>Open Eyes Open Heart</h2>
-	<p id="projectDetails">Meet their eyes and learn their stories</p>
-	<h2>Raising Heroes</h2>
-	<p id="projectDetails">Children mentorship- we teach our children to treasure their youth. But who teaches
+	<h2 class="title">Open Eyes Open Heart</h2>
+	<p class="projectDetails">Meet their eyes and learn their stories</p>
+	<h2 class="title">Raising Heroes</h2>
+	<p class="projectDetails">Children mentorship- we teach our children to treasure their youth. But who teaches
 them to look forward to their future? </p>
 	</section>
 	</article>

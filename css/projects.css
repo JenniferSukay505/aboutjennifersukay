@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
+
+
+a:hover {
+	color: rgba(160, 0, 255, 0.34);
+}
+
+a:active {
+	background-color: #1e27ff;
+}
+
+::selection {
+	color: #9898ff;
+}
+
 body {
 	color: #dddddd;
 	background-color: rgba(0, 0, 0, 0.7);
@@ -94,9 +108,36 @@ header#mainHeader h1 a {
 	color: #7499a4;
 	text-decoration: none;
 }
-
-article.flexbox {
+.flex-container {
 	display:flex;
+	flex-flow: row wrap;
+	flex-direction:column;
+	justify-content: space-around;
+	align-items: center;
+	align-content:stretch;
+}
+.wrapper {
+	display: flex;
+	flex-flow: row wrap;
+}
+.main, .article, .section, .aside, .footer {
+	flex: 1 100%;
+}
+
+/*medium screens*/
+
+@media all and (min-width: 600px) {
+	/* We tell both sidebars to share a row */
+	.aside {flex:1 auto; }
+}
+/*Large Screens*/
+@media all and (min-width: 800px) {
+	.aside { order: 1 }
+	.main	 {order: 2 }
+
+}
+
+.projectDetails {
 
 }
 /*project section styles*/
