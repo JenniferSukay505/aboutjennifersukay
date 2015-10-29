@@ -8,7 +8,7 @@
 	</head>
  <body>
 	 <header id="mainHeader" role="banner"><!--branding and navigation-->
-		 <h1>Jenn's Designs</h1>
+		 <h1><a id="home" href="../public_html/documentation/milestone-1.php">Jenn's Designs</a></h1>
 		 <nav role="navigation">
 			 <ul>
 				 <li><a href="sample.php" title="Design Samples">Latest Design</a></li>
