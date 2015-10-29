@@ -4,7 +4,7 @@ body {
 }
 h2 {
 	color: #03060b;
-	background-color: #989dff;
+	background-color: #d2ffdd;
 }
 
 #project {
@@ -22,7 +22,7 @@ p {
 }
 
 a:hover {
-	color: #cecac6;
+	color: #ce9c57;
 }
 header#mainHeader nav {
 	position: absolute;
@@ -54,14 +54,12 @@ header#mainHeader ul li a.current {
 header#mainHeader ul li a:hover {
 	color: rgba(153, 85, 34, 0.2);
 }
-#star{
-	float:left;
-	width:450px;
-}
-#water{
-	float:right;
-	width:450px
-}
-.lowerright {
-	bottom:30px;
+section#projectDetails p {
+	padding:35px;
+	border:35px;
+	margin-right:35px;
+	margin-left:35px;
+	color:black;
+
+	background-color:lightgoldenrodyellow;
 }

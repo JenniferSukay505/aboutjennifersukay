@@ -11,7 +11,7 @@
 		 <h1>Jenn's Designs</h1>
 		 <nav role="navigation">
 			 <ul>
-				 <li><a href="sample.php" title="Design Samples">Design Samples</a></li>
+				 <li><a href="sample.php" title="Design Samples">Latest Design</a></li>
 				 <li><a href="../links/projects.php" title="Projects">Projects</a></li>
 				 <li><a href="../links/contact.php" title="Contact">Contact</a></li>
 			 </ul>

@@ -33,7 +33,7 @@
 <header id="mainHeader" role="banner"><!--branding and navigation-->
 	<nav role="navigation">
 		<ul>
-			<li><a href="sample.php" title="Design Samples">Design Samples</a></li>
+			<li><a href="sample.php" title="Design Samples">Latest Design</a></li>
 			<li><a href="../links/projects.php" title="Projects">Projects</a></li>
 			<li><a href="../links/contact.php" title="Contact">Contact</a></li>
 		</ul>
@@ -41,27 +41,12 @@
 </header>
 <main id="ongoingprojects" role="main">
 <article role="article">
-	<section id="projectDetails">
-<header>
 	<h1>Ongoing Projects</h1>
-</header>
-	<h2>Help Parents Date</h2>
-	<p id="projectTitle">According to many of us, our parents need help in the dating department.  This is a fun opportunity
-to safely set our parents up on dates we approve of.</p>
-	</section>
-	<section id="projectDetails">
-<header>
 	<h2>Open Eyes Open Heart</h2>
-</header>
-	<p id="projectTitle">Meet their eyes and learn their stories</p>
-	</section>
-	<section id="projectDetails">
-<header>
+	<p id="projectDetails">Meet their eyes and learn their stories</p>
 	<h2>Raising Heroes</h2>
-</header>
-	<p id="projectTitle">Children mentorship- we teach our children to treasure their youth. But who teaches
+	<p id="projectDetails">Children mentorship- we teach our children to treasure their youth. But who teaches
 them to look forward to their future?  Bringing inspirations to children and excitement for futures.</p>
-	</section>
 <aside id="submit">
 	<blockquote>For submissions, <a href="/projects/openeyesopenheart/openeyesopenheartsubmissions.php">click here</a>
 	</blockquote>
@@ -69,6 +54,7 @@ them to look forward to their future?  Bringing inspirations to children and exc
 <section id="earth">
 	<img id="spinner" src="../img/space/earth.png" alt="earth">
 </section>
+	</article>
 </main>
 	<footer id="pageFooter" role="contentinfo" class="rightCol">
 		<p><a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">email</a></p>
