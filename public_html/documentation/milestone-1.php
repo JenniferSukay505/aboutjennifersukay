@@ -42,31 +42,31 @@
 </main>
 <section id="currentProjects">
 	<h2>Current Projects</h2>
-	<!--todo add help parents date project-->
-	<a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">Email me!</a>
-	<article>
+	<article role="article">
 		<header>
-			<h3><a id="project" href="../../links/projects.php">Ongoing Nonprofit</a></h3>
-			<p class="byline">by Jennifer Sukay</p>
-			<p class="pubdate">submitted on
-				<time datetime="2015-10-25">10/25/15</time>
-			</p>
+		<p class="byline">by Jennifer Sukay</p>
+		<article role="article">
+		<p class="pubdate">submitted on
+			<time datetime="2015-10-28">10/28/15</time>
+		</p>
+	</header>
+	<h2><a id="currentProjects" href="../../links/inDevelopment.php">In Development</a></h2>
+	<p>Helping our parents date quality folk- with the help and approval of
+their children, of course.</p>
+	</article>
+	<article role="article">
+		<header>
+		<h2><a id="currentProjects"	href="../../links/projects.php" title="Ongoing Projects">Nonprofit</a></h2>
 		</header>
-		<p>I have had two project ideas in my heart for years.  Now that I have jumped into coding, I am learning to
-implement them.  Please take a look <a href="../../links/projects.php" title="Ongoing Projects">here</a> and let me know
-if you want to contribute.  I am also interested in hearing your own ideas. </p>
+		<p>I have had project ideas in my heart for years.  Now that I have jumped into coding, I am learning to
+implement them.  Please take a look  and let me know if you want to contribute.  I am also interested in hearing
+your own ideas.</p>
 		</article>
-<aside id="adCopy">
-	<h3>Need a website?</h3>
-	<img src="../../img/art2.png" alt="Jenn'sDesigns">
-	<p><a href="/pwp/webdesigns.php" title="Jenn's Web Designs" >Gotcha covered!</a></p>
-	<p>If you need a website designed, poke your head in here.</p>
-</aside>
-	<aside id="adCopy" role="complementary">
-	<h3>Ready to learn?</h3>
-	<img src="../../img/codingbootcamp.png" alt="JennsDesigns">
-	<p><a href="//stemuluscenter.org/products/deep-dive-coding-bootcamp">Look Here!</a><br>
-	<p>A fast way to learn coding.</p>
+	</section>
+<aside id="adCopy" role="complementary">
+	<h3><a href="//stemuluscenter.org/products/deep-dive-coding-bootcamp">Ready to Learn?</a></h3>
+	<a href="//stemuluscenter.org/products/deep-dive-coding-bootcamp"><img src="../../img/codingbootcamp.png" alt="JennsDesigns"></a>
+	<h4>Get your Code On.</h4>
 </aside>
 	<footer id="pageFooter">
 		<div class="rightCol">
