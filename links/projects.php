@@ -38,10 +38,13 @@
 			<li><a href="../links/contact.php" title="Contact">Contact</a></li>
 		</ul>
 	</nav>
+	<br>
 </header>
 <main id="ongoingprojects" role="main">
 <article role="article">
+<header>
 	<h1>Ongoing Projects</h1>
+</header>
 	<h2>Open Eyes Open Heart</h2>
 	<p id="projectDetails">Meet their eyes and learn their stories</p>
 	<h2>Raising Heroes</h2>

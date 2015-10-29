@@ -17,8 +17,8 @@
 			 </ul>
 	 </header>
 	 <main id="contact" role="main">
-			 <p><a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">Email</a></p>
-			 <p><a href="tel://505-489-9573" title="phone">Phone</a></p>
+			 <p>Email <a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">JenniferSukay505@gmail.com</a></p>
+			 <p>Phone <a href="tel://505-489-9573" title="phone">505-489-9573</a></p>
 	 </main>
 	</body>
 </html>
