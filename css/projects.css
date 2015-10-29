@@ -1,32 +1,41 @@
+@charset "UTF-8";
+
 body {
 	color: #dddddd;
-	background-color: #000000;
-}
-h2 {
-	color: #03060b;
-	background-color: #d2ffdd;
-	padding:10px
-	margin:0;
-	margin-right:50px;
-	margin-left:50px;
-}
-
-#project {
-	background-color: #7a7c8b;
-}
-blockquote {
-	margin-top:50px;
-	float:right;
+	background-color: rgba(0, 0, 0, 0.7);
 }
 
 a {
-	color: #d2ffdd;
+	color: rgba(193, 219, 255, 0.24);
 	margin:0;
 	margin-right:50px;
 	margin-left:50px;
 	border:10px;
 	padding:10px;
 }
+a:hover {
+	color: rgba(108, 204, 119, 0.29);
+}
+
+/*html5 display rul*/
+article, aside, footer, header, nav, section,
+summary {
+	display: block;
+}
+
+html {
+	color: #b7b8d3;
+}
+
+h2 {
+	color: rgba(107, 33, 232, 0.18);
+	background-color: rgba(0, 0, 0, 0.22);
+	padding:10px
+	margin:0;
+	margin-right:50px;
+	margin-left:50px;
+}
+
 p {
 	color: #000000;
 	font-size: 1.25em;
@@ -38,9 +47,13 @@ p {
 	padding:10px;
 }
 
-a:hover {
-	color: #ce9c57;
+blockquote {
+	margin-top:50px;
+	float:right;
 }
+
+/*header styles*/
+
 header#mainHeader nav {
 	position: absolute;
 	left: 225px;
@@ -59,17 +72,28 @@ header#mainHeader ul li a{
 	font-size: 1.2em;
 	color: #989dff;
 	padding: 0 20px;
-	border-right: 1px solid #a4c7ce;
+	border-right: 1px ;
 	text-decoration: none;
 }
-header#mainHeader ul li a:last-child{
-	border: none;
+/*project section styles*/
+main {
+	border-right: 1px;
+	color: #7b787f;
 }
-header#mainHeader ul li a.current {
-	color: #99cec4;
+main header h1 {
+	font-weight: normal;
+	font-size: 2em;
+	margin-top: .5em;
+	color:black;
 }
-header#mainHeader ul li a:hover {
-	color: rgba(108, 204, 119, 0.47);
+main header h1 a {
+	color: rgba(0, 16, 240, 0.42);
+}
+main article h2 {
+	color: rgb(0, 0, 0);
+}
+#project {
+	background-color: #a9b687;
 }
 section#projectDetails p {
 	padding: 35px;
@@ -77,7 +101,6 @@ section#projectDetails p {
 	margin-right: 35px;
 	margin-left: 35px;
 	color: black;
-	background-color:lightgray;
 }
 
 

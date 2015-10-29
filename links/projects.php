@@ -43,6 +43,7 @@
 </header>
 <main id="ongoingprojects" role="main">
 <article role="article">
+	<section id="project">
 <header>
 	<h1>Ongoing Projects</h1>
 </header>
@@ -51,6 +52,7 @@
 	<h2>Raising Heroes</h2>
 	<p id="projectDetails">Children mentorship- we teach our children to treasure their youth. But who teaches
 them to look forward to their future? </p>
+	</section>
 <aside id="submit">
 	<blockquote>For submissions, <a href="../projects/openeyesopenheart/openeyesopenheartsubmissions.php">click here</a>
 	</blockquote>
