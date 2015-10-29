@@ -19,8 +19,7 @@ blockquote {
 }
 
 a {
-	color: black;
-	background-color:lightgoldenrodyellow;
+	color: #d2ffdd;
 	padding:35px;
 	margin-right:50px;
 	margin-left:50px;
@@ -63,11 +62,12 @@ header#mainHeader ul li a:hover {
 	color: rgba(153, 85, 34, 0.2);
 }
 section#projectDetails p {
-	padding:35px;
-	border:35px;
-	margin-right:35px;
-	margin-left:35px;
-	color:black;
-
-	background-color:lightgoldenrodyellow;
+	padding: 35px;
+	border: 35px;
+	margin-right: 35px;
+	margin-left: 35px;
+	color: black;
+	background-color:lightgray;
 }
+
+
