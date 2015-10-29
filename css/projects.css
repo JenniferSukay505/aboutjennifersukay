@@ -21,11 +21,6 @@ body {
 
 a {
 	color: rgba(193, 219, 255, 0.24);
-	margin:0;
-	margin-right:50px;
-	margin-left:50px;
-	border:10px;
-	padding:10px;
 }
 a:hover {
 	color: rgba(0, 16, 240, 0.29);
@@ -44,21 +39,12 @@ html {
 h2 {
 	color: rgba(107, 33, 232, 0.18);
 	background-color: rgba(0, 0, 0, 0.22);
-	padding:10px
-	margin:0;
-	margin-right:50px;
-	margin-left:50px;
 }
 
 p {
 	color: #000000;
 	font-size: 1.25em;
 	background-color: #e8e687;
-	margin:0;
-	margin-right:50px;
-	margin-left:50px;
-	border:10px;
-	padding:10px;
 }
 
 blockquote {
@@ -108,58 +94,26 @@ header#mainHeader h1 a {
 	color: #7499a4;
 	text-decoration: none;
 }
-.flex-container {
-	display:flex;
-	flex-flow: row wrap;
-	flex-direction:column;
-	justify-content: space-around;
-	align-items: center;
-	align-content:stretch;
-}
-.wrapper {
+section.project {
 	display: flex;
 	flex-flow: row wrap;
+	justify-content: stretch;
 }
-.main, .article, .section, .aside, .footer {
-	flex: 1 100%;
-}
-
-/*medium screens*/
-
-@media all and (min-width: 600px) {
-	/* We tell both sidebars to share a row */
-	.aside {flex:1 auto; }
-}
-/*Large Screens*/
-@media all and (min-width: 800px) {
-	.aside { order: 1 }
-	.main	 {order: 2 }
-
-}
-
-.projectDetails {
-
+section.title {
+	flex: none;
 }
 /*project section styles*/
 main {
 	border-right: 1px;
 	color: #7b787f;
 }
-main#ongoingProjects {
-	color: black;
-}
+
 section#project p {
-	margin:35px;
-	border: 35px;
-	padding: 35px;
+
 	color: black;
 	background-color:cornflowerblue;
 }
-main#ongoingProjects aside#submit {
-	font-size: 2px;
-	color:black;
-	background-color: rgba(194, 180, 255, 0.62);
-}
+
 aside#submit a{
 	color:yellow;
 }

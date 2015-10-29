@@ -30,6 +30,7 @@
 <title>Projects</title>
 </head>
 <body>
+
 	<header id="mainHeader" role="banner"><!--branding and navigation-->
 		<h1><a id="home" href="../public_html/documentation/milestone-1.php">Jenn's Designs</a></h1>
 		<nav role="navigation">
@@ -42,29 +43,38 @@
 	<br>
 </header>
 <main id="ongoingProjects" role="main">
-<article class="flexboxParent">
-	<section id="project" class="flexboxChild">
-<header>
-	<h1>Ongoing Projects</h1>
-</header>
-	<h2 class="title">Open Eyes Open Heart</h2>
-	<p class="projectDetails">Meet their eyes and learn their stories</p>
-	<h2 class="title">Raising Heroes</h2>
-	<p class="projectDetails">Children mentorship- we teach our children to treasure their youth. But who teaches
-them to look forward to their future? </p>
-	</section>
-	</article>
+	<section class="project">
+		<h1>Ongoing Projects</h1>
+		<table class="table">
+			<thead>
+				<tr>
+				<th>Open Eyes Open Heart</th>
+				</tr>
+				<tr>
+					<th>Meet their eyes and learn their stories.
+					</th>
+					<tr>
+					<th>Raising Heroes</th>
+				</tr>
+				<tr>
+					<th>Children mentorship- we teach our children to treasure their youth. But who teaches
+							them to look forward to their future?
+					</th>
+				</tr>
+		</thead>
+</section>
 <aside id="submit">
-	<blockquote>For submissions, <a href="../projects/openeyesopenheart/openeyesopenheartsubmissions.php">click here</a>
-	</blockquote>
+<blockquote>For submissions, <a href="../projects/openeyesopenheart/openeyesopenheartsubmissions.php">click here</a>
+</blockquote>
 </aside>
 <section id="earth">
-	<img id="spinner" src="../img/space/earth.png" alt="earth">
+<img id="spinner" src="../img/space/earth.png" alt="earth">
 </section>
 </main>
 <footer id="pageFooter" role="contentinfo" class="rightCol">
-	<p><a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">email</a></p>
-	<p>JennWebDesigns</p>
-	<p><a href="tel://505-489-9573" title="phone"</a></p>
+<p><a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">email</a></p>
+<p>JennWebDesigns</p>
+<p><a href="tel://505-489-9573" title="phone"</a></p>
 </footer>
+-->
 </html>
