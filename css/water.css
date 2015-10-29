@@ -15,7 +15,7 @@ p {
 }
 
 a:hover {
-	color: #952;
+	color: #e86a36;
 }
 header#mainHeader nav {
 	position: absolute;
@@ -48,8 +48,7 @@ header#mainHeader ul li a:hover {
 	color: #cb7d20;
 }
 header#mainHeader h1 {
-	font-size: 6em;
-	color: #08090e;
+	color: #cecc64;
 	font-weight: normal;
 }
 header#mainHeader p {

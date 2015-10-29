@@ -12,9 +12,10 @@ h2 {
 }
 
 #project {
-	background-color: darkblue;
+	background-color: #7a7c8b;
 }
 blockquote {
+	margin-top:50px;
 	float:right;
 }
 
@@ -25,7 +26,13 @@ a {
 	margin-left:50px;
 }
 p {
+	color: #000000;
 	font-size: 1.25em;
+	background-color: #e8e687;
+	padding:10px
+	margin:0;
+	margin-right:50px;
+	margin-left:50px;
 }
 
 a:hover {

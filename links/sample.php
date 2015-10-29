@@ -8,7 +8,7 @@
 <body>
 	<!--branding and navigation-->
 <header id="mainHeader">
-	<p>Deep Dive</p>
+	<h1><a id="home" href="../public_html/documentation/milestone-1.php">Jenn's Designs</a></h1>
 	<nav role="navigation">
 		<ul>
 			<li><a href="../../links/samples.php" title="Design Samples">Latest Design</a></li>

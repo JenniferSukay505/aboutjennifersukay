@@ -30,8 +30,9 @@
 <title>Projects</title>
 </head>
 <body>
-<header id="mainHeader" role="banner"><!--branding and navigation-->
-	<nav role="navigation">
+	<header id="mainHeader" role="banner"><!--branding and navigation-->
+		<h1><a id="home" href="../public_html/documentation/milestone-1.php">Jenn's Designs</a></h1>
+		<nav role="navigation">
 		<ul>
 			<li><a href="sample.php" title="Design Samples">Latest Design</a></li>
 			<li><a href="../links/projects.php" title="Projects">Projects</a></li>
@@ -49,7 +50,7 @@
 	<p id="projectDetails">Meet their eyes and learn their stories</p>
 	<h2>Raising Heroes</h2>
 	<p id="projectDetails">Children mentorship- we teach our children to treasure their youth. But who teaches
-them to look forward to their future?  Bringing inspirations to children and excitement for futures.</p>
+them to look forward to their future? </p>
 <aside id="submit">
 	<blockquote>For submissions, <a href="/projects/openeyesopenheart/openeyesopenheartsubmissions.php">click here</a>
 	</blockquote>
