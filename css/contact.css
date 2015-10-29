@@ -8,14 +8,14 @@ html, body, div, section, article, aside, header, footer, nav, h1, h2, h3, h4,  
 }
 a {
 	text-decoration: none;
-	color:#cb7d20;
+	color: #cb2494;
 }
 
 a:hover {
-	color: #a4c7ce;
+	color: rgba(206, 204, 162, 0.34);
 }
 a:active {
-	background-color:pink;
+	background-color: #1e27ff;
 }
 /*html5 display rul*/
 article, aside, figcaption, figure, footer, header, menu, nav, section,
@@ -27,7 +27,7 @@ html {
 }
 
 ::selection {
-	color:deeppink;
+	color: #9898ff;
 }
 
 body {
@@ -40,20 +40,16 @@ h2 {
 	background-color: #989dff;
 }
 
-section#project {
-	background-color: darkblue;
+p {
+	font-size: 1.25em;
 }
+/*layout styles*/
+
 blockquote {
 	float:right;
 }
 
-a {
-	color: #c74aee;
-}
-p {
-	font-size: 1.25em;
-}
-
+/*header styles*/
 
 header#mainHeader nav {
 	position: absolute;
@@ -87,8 +83,14 @@ header#mainHeader ul li a:hover {
 header#mainHeader#home h1 a:current {
 	color: #ce1fa6;
 }
+
+/*project sections styles*/
 main#contact {
 	text-align: center;
 	padding-top:50px;
-color: #ce1fa6;
+	color: #ce1fa6;
+}
+
+section#project {
+	background-color: darkblue;
 }
