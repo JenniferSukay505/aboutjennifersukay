@@ -21,7 +21,7 @@ summary {
 	display: block;
 }
 html {
-	background: #6fd3db;
+	color: #b7b8d3;
 }
 body {
 	font: 100% Georgia, "Times New Roman", Times, serif;
@@ -30,7 +30,7 @@ body {
 	padding: 0 50px;
 	text-align:left;
 	position: relative;
-	background: white;
+	background-color: #372fd3;
 }
 nav ul, ul.menu {
 	list-style: none;
@@ -108,7 +108,7 @@ header#mainHeader ul li {
 header#mainHeader ul li a{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.2em;
-	color: #cb7d20;
+	color: #050b09;
 	padding: 0 20px;
 	border-right: 1px solid #000;
 	text-decoration: none;
@@ -204,6 +204,7 @@ main dd {
 	background: #e1d8b9;
 	margin-bottom: 1em;
 	padding: .3em;
+	color:black;
 }
 main a {
 	color: #000;
