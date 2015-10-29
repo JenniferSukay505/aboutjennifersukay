@@ -59,7 +59,7 @@ header#mainHeader ul li a.current {
 	color: #99cec4;
 }
 header#mainHeader ul li a:hover {
-	color: rgba(153, 85, 34, 0.2);
+	color: rgba(108, 204, 119, 0.47);
 }
 section#projectDetails p {
 	padding: 35px;
