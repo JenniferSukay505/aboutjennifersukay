@@ -41,8 +41,8 @@
 	</nav>
 	<br>
 </header>
-<main id="ongoingprojects" role="main">
-<article role="article">
+<main id="ongoingProjects" role="main">
+<article class="flexbox">
 	<section id="project">
 <header>
 	<h1>Ongoing Projects</h1>
@@ -62,9 +62,9 @@ them to look forward to their future? </p>
 	<img id="spinner" src="../img/space/earth.png" alt="earth">
 </section>
 </main>
-	<footer id="pageFooter" role="contentinfo" class="rightCol">
-		<p><a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">email</a></p>
-		<p>JennWebDesigns</p>
-		<p><a href="tel://505-489-9573" title="phone"</a></p>
-	</footer>
+<footer id="pageFooter" role="contentinfo" class="rightCol">
+	<p><a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">email</a></p>
+	<p>JennWebDesigns</p>
+	<p><a href="tel://505-489-9573" title="phone"</a></p>
+</footer>
 </html>

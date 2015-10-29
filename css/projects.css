@@ -14,7 +14,7 @@ a {
 	padding:10px;
 }
 a:hover {
-	color: rgba(108, 204, 119, 0.29);
+	color: rgba(0, 16, 240, 0.29);
 }
 
 /*html5 display rul*/
@@ -60,7 +60,22 @@ header#mainHeader nav {
 	top: 0;
 	padding-top: 15px;
 }
+main header h1 {
+	font-weight: normal;
+	font-size: 2em;
+	margin-top: .5em;
+	color:black;
+}
+header#mainHeader nav {
+	position: absolute;
+	left: 225px;
+	top: 0;
+	padding-top: 15px;
+}
 
+main article h2 {
+	color: rgb(0, 0, 0);
+}
 header#mainHeader ul {
 	float: left;
 }
@@ -79,28 +94,17 @@ header#mainHeader h1 a {
 	color: #7499a4;
 	text-decoration: none;
 }
+
+article.flexbox {
+	display:flex;
+
+}
 /*project section styles*/
 main {
 	border-right: 1px;
 	color: #7b787f;
 }
-main header h1 {
-	font-weight: normal;
-	font-size: 2em;
-	margin-top: .5em;
-	color:black;
-}
-main header h1 a {
-	color: rgba(0, 16, 240, 0.42);
-}
-main article h2 {
-	color: rgb(0, 0, 0);
-}
-
 main#ongoingProjects {
-	margin:35px;
-	border: 35px;
-	padding: 35px;
 	color: black;
 }
 section#project p {
@@ -110,5 +114,12 @@ section#project p {
 	color: black;
 	background-color:cornflowerblue;
 }
-
+main#ongoingProjects aside#submit {
+	font-size: 2px;
+	color:black;
+	background-color: rgba(194, 180, 255, 0.62);
+}
+aside#submit a{
+	color:yellow;
+}
 
