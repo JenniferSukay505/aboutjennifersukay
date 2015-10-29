@@ -75,6 +75,10 @@ header#mainHeader ul li a{
 	border-right: 1px ;
 	text-decoration: none;
 }
+header#mainHeader h1 a {
+	color: #7499a4;
+	text-decoration: none;
+}
 /*project section styles*/
 main {
 	border-right: 1px;
@@ -92,15 +96,19 @@ main header h1 a {
 main article h2 {
 	color: rgb(0, 0, 0);
 }
-#project {
-	background-color: #a9b687;
-}
-section#projectDetails p {
-	padding: 35px;
+
+main#ongoingProjects {
+	margin:35px;
 	border: 35px;
-	margin-right: 35px;
-	margin-left: 35px;
+	padding: 35px;
 	color: black;
+}
+section#project p {
+	margin:35px;
+	border: 35px;
+	padding: 35px;
+	color: black;
+	background-color:cornflowerblue;
 }
 
 

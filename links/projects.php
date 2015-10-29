@@ -53,6 +53,7 @@
 	<p id="projectDetails">Children mentorship- we teach our children to treasure their youth. But who teaches
 them to look forward to their future? </p>
 	</section>
+	</article>
 <aside id="submit">
 	<blockquote>For submissions, <a href="../projects/openeyesopenheart/openeyesopenheartsubmissions.php">click here</a>
 	</blockquote>
@@ -60,7 +61,6 @@ them to look forward to their future? </p>
 <section id="earth">
 	<img id="spinner" src="../img/space/earth.png" alt="earth">
 </section>
-	</article>
 </main>
 	<footer id="pageFooter" role="contentinfo" class="rightCol">
 		<p><a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">email</a></p>

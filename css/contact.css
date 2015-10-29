@@ -17,6 +17,11 @@ a:hover {
 a:active {
 	background-color: #1e27ff;
 }
+
+::selection {
+	color: #9898ff;
+}
+
 /*html5 display rul*/
 article, aside, figcaption, figure, footer, header, menu, nav, section,
 summary {
@@ -24,10 +29,6 @@ summary {
 }
 html {
 	color: #000000;
-}
-
-::selection {
-	color: #9898ff;
 }
 
 body {
