@@ -34,8 +34,8 @@
 		<h1><a id="home" href="../public_html/documentation/milestone-1.php">Jenn's Designs</a></h1>
 		<nav role="navigation">
 		<ul>
-			<li><a href="sample.php" title="Design Samples">Latest Design</a></li>
 			<li><a href="../links/projects.php" title="Projects">Projects</a></li>
+			<li><a href="sample.php" title="Design Samples">Latest Design</a></li>
 			<li><a href="../links/contact.php" title="Contact">Contact</a></li>
 		</ul>
 	</nav>
@@ -52,7 +52,7 @@
 	<p id="projectDetails">Children mentorship- we teach our children to treasure their youth. But who teaches
 them to look forward to their future? </p>
 <aside id="submit">
-	<blockquote>For submissions, <a href="/projects/openeyesopenheart/openeyesopenheartsubmissions.php">click here</a>
+	<blockquote>For submissions, <a href="../projects/openeyesopenheart/openeyesopenheartsubmissions.php">click here</a>
 	</blockquote>
 </aside>
 <section id="earth">

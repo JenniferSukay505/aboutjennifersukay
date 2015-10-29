@@ -12,8 +12,8 @@
 	<a href="milestone-1.php"<img id="designLink" src="/img/art2.png" alt="artLink"/>
 	<nav role="navigation">
 		<ul>
-			<li><a href="../../links/sample.php" title="Design Samples">Latest Design</a></li>
 			<li><a href="../../links/projects.php" title="Projects">Projects</a></li>
+			<li><a href="../../links/sample.php" title="Design Samples">Latest Design</a></li>
 			<li><a href="../../links/contact.php" title="Contact">Contact</a></li>
 		</ul>
 	</nav>

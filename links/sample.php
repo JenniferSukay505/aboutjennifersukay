@@ -6,16 +6,15 @@
 <title>Deep Dive</title>
 </head>
 <body>
-	<!--branding and navigation-->
 <header id="mainHeader">
 	<h1><a id="home" href="../public_html/documentation/milestone-1.php">Jenn's Designs</a></h1>
 	<nav role="navigation">
 		<ul>
-			<li><a href="../../links/samples.php" title="Design Samples">Latest Design</a></li>
-			<li><a href="../../links/projects.php" title="Projects">Projects</a></li>
-			<li><a href="../../links/contact.php" title="Contact">Contact</a></li>
+			<li><a href="../links/sample.php" title="Design Samples">Latest Design</a></li>
+			<li><a href="../links/projects.php" title="Projects">Projects</a></li>
+			<li><a href="../links/contact.php" title="Contact">Contact</a></li>
 		</ul>
-	</header>
+</header>
 		<p><span id="clearsplash">Deep</span>
 			<span id="transparentbubbles">Dive</span>
 			<span id="splash2">coder</span>

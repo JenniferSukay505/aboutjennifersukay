@@ -30,6 +30,16 @@
 </head>
 <body>
 <header id="mainHeader" role="banner">
+	<h1><a id="home" href="../public_html/documentation/milestone-1.php">Jenn's Designs</a></h1>
+	<nav role="navigation">
+		<ul>
+			<li><a href="../../sample.php" title="Latest Design">Latest Design</a></li>
+			<li><a href="../../links/projects.php" title="Projects">Projects</a></li>
+			<li><a href="../../links/contact.php" title="Contact">Contact</a></li>
+		</ul>
+	</nav>
+	<br>
+<header id="mainHeader" role="banner">
 	<h1>Open Eyes Open Heart Submissions</h1>
 	<nav role="navigation">
 		<ul>
