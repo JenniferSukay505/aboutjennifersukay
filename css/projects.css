@@ -108,13 +108,14 @@ main {
 	color: #7b787f;
 }
 
-section#project p {
-
-	color: black;
-	background-color:cornflowerblue;
-}
-
 aside#submit a{
 	color:yellow;
+	float:right;
+	position:absolute;
+	right:570px;
+	bottom:101px;
+	clear:right;
+
+}
 }
 

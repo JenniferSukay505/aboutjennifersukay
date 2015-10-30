@@ -30,8 +30,7 @@
 <title>Projects</title>
 </head>
 <body>
-
-	<header id="mainHeader" role="banner"><!--branding and navigation-->
+	<header>
 		<h1><a id="home" href="../public_html/documentation/milestone-1.php">Jenn's Designs</a></h1>
 		<nav role="navigation">
 		<ul>
@@ -43,38 +42,30 @@
 	<br>
 </header>
 <main id="ongoingProjects" role="main">
-	<section class="project">
+	<header>
 		<h1>Ongoing Projects</h1>
-		<table class="table">
-			<thead>
-				<tr>
-				<th>Open Eyes Open Heart</th>
-				</tr>
-				<tr>
-					<th>Meet their eyes and learn their stories.
-					</th>
-					<tr>
-					<th>Raising Heroes</th>
-				</tr>
-				<tr>
-					<th>Children mentorship- we teach our children to treasure their youth. But who teaches
-							them to look forward to their future?
-					</th>
-				</tr>
-		</thead>
-</section>
+	</header>
+	<section class="project">
+		<dl>
+			<dt>Open Eyes</dt>
+			<dd>Personal stories and photos of our neighbors- the city's homeless</dd>
+			<dt>Raising Heroes</dt>
+			<dd>Children Mentorship Program</dd>
+		</dl>
+	</section>
+	<!--formatting needed
 <aside id="submit">
-<blockquote>For submissions, <a href="../projects/openeyesopenheart/openeyesopenheartsubmissions.php">click here</a>
+	<blockquote>For submissions, <a href="../projects/openeyesopenheart/openeyesopenheartsubmissions.php">click here</a>
 </blockquote>
-</aside>
+</aside>-->
 <section id="earth">
 <img id="spinner" src="../img/space/earth.png" alt="earth">
 </section>
 </main>
+<!--formatting needed
 <footer id="pageFooter" role="contentinfo" class="rightCol">
 <p><a href="mailto:jennifersukay505@gmail.com" title="email Jennifer!">email</a></p>
 <p>JennWebDesigns</p>
 <p><a href="tel://505-489-9573" title="phone"</a></p>
-</footer>
--->
+</footer>-->
 </html>
